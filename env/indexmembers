@@ -1,0 +1,129 @@
+import lseg.data as ld
+from lseg.data.discovery import Chain
+import pandas
+import datetime
+import matplotlib.pyplot as plt
+import time
+
+ld.open_session()
+
+# Fetch data from LSEG
+
+ftse = Chain("0#.FTSE")
+print(ftse.constituents)
+
+
+fields = [
+    # "TR.PriceClose",
+    "TR.TRESGScore",              # ESG Combined Score
+    "TR.EnvironmentPillarScore",  # Environmental
+    "TR.SocialPillarScore",       # Social
+    "TR.GovernancePillarScore"    # Governance
+]
+
+df = ld.get_data(
+    universe=ftse,
+    fields=fields
+)
+
+print(df.head())
+df.to_csv("contituents.csv")
+
+
+'''
+# From the Data Item Browser
+field_price_usd = eikon.TR_Field(field_name='TR.CLOSEPRICE',
+                                 params={
+                                     'Curn': 'USD',
+                                     'Adjusted': '1',
+                                 })
+field_date = eikon.TR_Field(field_name='TR.CLOSEPRICE.date')
+
+
+
+while True:
+    try:
+        ts_downloaded = [path.stem for path in pathlib.Path('raw/price_2009_2023/').rglob('*.csv')]
+        ts_downloaded[:2]
+
+        for reuters_id in df_links['reuters_id'].dropna().unique():
+            if reuters_id in ts_downloaded:
+                print(reuters_id, 'is already downloaded.')
+                continue
+            time.sleep(2)
+            print('Downloading:', reuters_id)
+            df, err = eikon.get_data(instruments=[reuters_id],
+                                    fields=[field_price_usd, field_date],
+                                    parameters={'SDate': '2007-01-01',
+                                                'EDate': '2025-01-01',
+                                                'Frq': 'D',
+                                                },
+                                    field_name=True
+                                    )
+            df.to_csv(f'raw/price_2009_2023/{reuters_id}.csv')
+
+        break
+    except eikon.EikonError as err:
+        print(str(err.message))
+        if err.code == 400:
+            print('Bad request. Backend error. Restarting.')
+            time.sleep(20)
+        elif err.code == 504:
+            print('Server timeout.')
+            time.sleep(20)
+        else:
+            break
+
+
+
+while True:
+    try:
+        ts_downloaded = [path.stem for path in pathlib.Path('raw/esg_2007_2025/').rglob('*.csv')]
+
+        for reuters_id in df_links['reuters_id'].dropna().unique():
+            if reuters_id in ts_downloaded:
+                print(reuters_id, 'is already downloaded.')
+                continue
+
+            time.sleep(2)
+            
+            print('Downloading:', reuters_id)
+            
+            df, err = eikon.get_data(instruments=[reuters_id],
+                                    fields=[
+                                        eikon.TR_Field(field_name='TR.TRESGScore.value'),
+                                        eikon.TR_Field(field_name='TR.TRESGScore.date'),
+
+                                        eikon.TR_Field(field_name='TR.EnvironmentPillarScore.value'),
+                                        eikon.TR_Field(field_name='TR.EnvironmentPillarScore.date'),
+
+                                        eikon.TR_Field(field_name='TR.SocialPillarScore.value'),
+                                        eikon.TR_Field(field_name='TR.SocialPillarScore.date'),
+
+                                        eikon.TR_Field(field_name='TR.GovernancePillarScore.value'),
+                                        eikon.TR_Field(field_name='TR.GovernancePillarScore.date'),
+                                    ],
+                                    parameters={'SDate': -18,
+                                                'EDate': 1,
+                                                'Frq': 'FY',
+                                                'IncludePartialYear': True,
+                                                },
+                                    field_name=True
+                                    )
+
+            df.to_csv(f'raw/esg_2007_2023/{reuters_id}.csv')
+
+        break
+    except eikon.EikonError as err:
+        print(str(err.message))
+        if err.code == 400:
+            print('Bad request. Backend error. Restarting.')
+            time.sleep(20)
+        elif err.code == 504:
+            print('Server timeout.')
+            time.sleep(20)
+        else:
+            break
+'''
+
+ld.close_session()

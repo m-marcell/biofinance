@@ -1,0 +1,4 @@
+lseg-data
+numpy
+pandas
+matplotlib

@@ -1,0 +1,77 @@
+\documentclass[aspectratio=169,notheorems]{corvinusmetropolis}
+
+\usepackage[hungarian]{babel}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{05-05.bib}
+\usepackage{amsmath}
+
+\renewcommand{\myinstlogo}{./corvinus-logos/black_simple_HUN.pdf}
+
+\title{Biodiversity \& Nature  in Europe}
+\subtitle{Biodiverzitás és Nature kockázat megjelenése az európai piacon, elmélet és piaci realitás}
+\author{Molnár Marcell}
+\email{marcell.molnar@stud.uni-corvinus.hu}
+
+\institute[Corvinus University]
+  {
+  Pénzügy és számvitel alapszak\\
+  Pénzügy specializáció\\
+  Email: \putemail\\
+  }
+\date{\today}
+\titlegraphic{\hfill{\includegraphics[width=.2\textwidth]{\myinstlogo}}}
+\keywords{nature_finance, biodiversity_finance, sustainable_finance}
+
+\begin{document}
+\openingframes{}
+
+\begin{frame}
+  \frametitle{Irodalomi háttér}
+  Az elmúlt években a Fenntartható Pénzügyek kutatói fokozott figyelmet fordított az új publikációkban a Biodiversity Finance ágnak\\ 
+  Friss, releváns kutatások:
+  \begin{itemize}
+    \item \alert{biodiverzitási prémium} jelenléte és mértéke \parencite{coqueret_biodiversity_2024, naffa_biodiversity_2024},
+    \item \alert{ENCORE adatbázis} biodiverzitás témakörben \parencite{clement_mapping_2025},
+    \item \alert{private capital befektetések} \parencite{flammer_biodiversity_2025}\\
+  \end{itemize}
+  \textbf{A hozzájárulásunk a szakirodalomhoz a biodiversity/nature hatások empirikus vizsgálata az európai részvénypiacon}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Kutatási kérdések}
+  \begin{enumerate}
+    \item A biodiverzitási adatok beépítésével növelni tudjuk a maximálisan elérhető Sharpe-rátát, az egyszerű kiszűrési stratégiához képest? \parencite{pedersen_responsible_2021} 
+    \item A piaci hozamokban megjelenik-e a biodiverzitási prémium \parencite{coqueret_biodiversity_2024, naffa_biodiversity_2024}, és ha igen, akkor ennek a méréke mekkora az európai piacon?
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Módszertan}
+  Egy olyan befektetőt feltételezünk (shortolás megengedett), akinek a hasznossági függvényébe a vagyon maximalizálása mellett, \alert{pozitívan gondolkodik a magasabb biodiversity/nature értékekről}.\\
+  \textcite{pedersen_responsible_2021} alapján a \alert{hasznossági fv-e lineáris és a következő alakú}:
+  $$
+  U = E[\widehat{W}|s] - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
+  $$
+  ahol $\widehat{W}=W(1+r^f+x'r)$, $\hat{\gamma}$ az abszolút kockázatelutasító paraméter, $s, \bar{s}$ pedig a biodiverzitási/nature score és számtani átlaga.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Módszertan}
+  Egy sztenderd mean-variance hasznosságfüggvényű befektető a befektetési univerzumban megkeresi az \alert{érintési portfóliót}, majd ezt keveri a \alert{kockázatmentes eszközzel} az egyéni kockázatkerülésének függvényében.
+  \\Az érintési portfólió az a portfólió, ami a legmagasabb Sharpe-rátával, ezért \textcite{pedersen_responsible_2021} \textbf{általánosította} ezt azzal, hogy \alert{minden egyes ESG-proxy mellett} (jelenesteben biodiversity score), \alert{meghatározható a maximálisan elérhető Sharpe-ráta}.\\
+  \bigskip
+  \textbf{A probléma idáig nem függ az egyéni hasznosságtól, azaz a befektetési univerzumra egyértelműen meghatározható ez az ún. BIODIV-SR határ!}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Adatbázisok, befektetési univerzum}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Roadmap}
+\end{frame}
+
+\printbibliography
+
+% \closingframes{Köszönöm a figyelmet!}
+\end{document}

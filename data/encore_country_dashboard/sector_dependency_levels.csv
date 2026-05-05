@@ -1,0 +1,623 @@
+,,GVA Dependency,GVA Dependency,GVA Dependency,IVA Dependency,IVA Dependency,IVA Dependency
+Country,Sector,High,Medium,Low,High,Medium,Low
+AT,Forestry,1226.03,0.00,0.00,0.00,27.62,0.00
+AT,Agriculture,3446.45,0.00,0.00,1047.90,387.17,0.00
+AT,Fishery and aquaculture,39.37,0.00,0.00,20.28,0.00,0.00
+AT,Food beverages and tobacco,9540.37,0.00,0.00,5537.01,705.31,0.00
+AT,Heat utilities,0.00,3.93,0.00,0.00,138.37,0.00
+AT,Construction,26976.31,0.00,0.00,10967.28,0.00,0.00
+AT,Electricity,2621.08,6349.91,0.00,703.58,411.22,0.00
+AT,Water utilities,794.97,0.00,0.00,1.83,2.65,0.00
+AT,Supply chain and transport,17492.15,11482.09,0.00,3733.76,129.42,0.00
+AT,Chemical and materials industry,4721.35,39219.42,0.00,12530.92,11945.92,0.00
+AT,Aviation travel and tourism,16301.23,0.00,0.00,2021.66,747.87,0.00
+AT,Real estate,29922.22,0.00,0.00,3157.71,0.00,0.00
+AT,Mining and metals,504.42,0.00,0.00,140.44,37.08,0.00
+AT,Retail consumer goods and lifestyle,17135.31,18387.12,0.00,1982.69,2135.25,0.00
+AT,Oil and gas,0.00,327.39,0.00,0.00,2770.60,0.00
+AT,Automotive,2137.39,8474.81,0.00,0.00,9267.05,0.00
+AT,Healthcare delivery,29513.30,0.00,0.00,3578.75,0.00,0.00
+AT,Electronics,0.00,1694.55,0.00,0.00,5579.96,0.00
+AT,Information technology,0.00,0.00,5574.77,0.00,2563.38,0.00
+AT,Insurance and asset management,0.00,0.00,5576.99,0.00,617.05,0.00
+AT,Banking and capital markets,0.00,0.00,9607.42,0.00,282.38,0.00
+AT,Digital communications,0.00,0.00,8800.35,0.00,1129.44,0.00
+AT,Public services and others,62889.58,14488.16,25792.74,2452.49,18144.47,0.00
+BE,Forestry,117.77,0.00,0.00,0.00,108.05,0.00
+BE,Agriculture,4099.26,0.00,0.00,926.43,61.91,0.00
+BE,Fishery and aquaculture,58.07,0.00,0.00,0.00,39.61,0.00
+BE,Food beverages and tobacco,11893.59,223.67,0.00,22175.99,0.00,0.00
+BE,Heat utilities,0.00,16.54,0.00,0.00,1.45,0.00
+BE,Construction,26415.51,0.00,0.00,28079.23,0.00,0.00
+BE,Electricity,522.42,5443.29,0.28,0.00,1815.27,0.00
+BE,Water utilities,1747.21,0.00,0.00,0.00,345.83,0.00
+BE,Supply chain and transport,17791.72,11880.60,0.00,16193.97,451.59,0.00
+BE,Chemical and materials industry,8805.64,35775.86,0.00,20079.08,29885.60,0.00
+BE,Aviation travel and tourism,9850.23,0.00,0.00,2773.17,3216.22,0.00
+BE,Real estate,0.00,36179.29,0.00,0.00,3610.96,0.00
+BE,Mining and metals,252.21,0.00,0.00,0.96,153.69,0.00
+BE,Retail consumer goods and lifestyle,15849.07,21.88,23852.12,0.00,12376.20,0.00
+BE,Oil and gas,0.00,850.73,0.00,25.80,8892.51,0.00
+BE,Automotive,3165.70,12154.87,0.00,5655.07,26389.97,0.00
+BE,Healthcare delivery,30383.82,0.00,0.00,0.00,5546.38,0.00
+BE,Electronics,0.00,1850.46,0.00,278.15,1778.47,0.00
+BE,Information technology,0.00,0.00,12065.76,0.00,2438.07,0.00
+BE,Insurance and asset management,0.00,0.00,8972.16,0.00,3254.41,0.00
+BE,Banking and capital markets,0.00,0.00,16742.01,0.00,2264.50,0.00
+BE,Digital communications,0.00,0.00,17313.55,0.00,4593.48,0.00
+BE,Public services and others,93415.30,13665.72,38448.41,4362.06,27979.69,0.00
+BG,Forestry,218.06,0.00,0.00,0.00,10.38,0.00
+BG,Agriculture,2317.74,0.00,0.00,1012.18,191.13,0.00
+BG,Fishery and aquaculture,37.09,0.00,0.00,0.00,17.92,0.00
+BG,Food beverages and tobacco,1634.17,243.73,0.00,1612.13,74.67,0.00
+BG,Heat utilities,0.00,6.28,0.00,0.00,5.90,0.00
+BG,Construction,3114.57,0.00,0.00,0.00,3046.25,0.00
+BG,Electricity,408.79,626.19,0.00,56.26,534.30,0.00
+BG,Water utilities,279.68,0.00,0.00,0.00,25.70,0.00
+BG,Supply chain and transport,5836.92,1629.49,0.00,370.13,400.13,0.00
+BG,Chemical and materials industry,1817.14,3315.56,0.00,1466.23,3801.95,0.00
+BG,Aviation travel and tourism,1088.10,0.00,0.00,265.42,42.03,0.00
+BG,Real estate,0.00,1725.65,0.00,0.00,118.75,0.00
+BG,Mining and metals,914.98,0.00,0.00,0.00,135.71,0.00
+BG,Retail consumer goods and lifestyle,5063.71,3552.84,0.00,0.00,1598.05,0.00
+BG,Oil and gas,0.00,170.61,0.00,0.00,1166.90,0.00
+BG,Automotive,183.14,803.89,0.00,108.30,313.07,0.00
+BG,Healthcare delivery,2781.15,0.00,0.00,389.29,0.00,0.00
+BG,Electronics,0.00,2556.36,0.00,0.00,1161.75,0.00
+BG,Information technology,0.00,0.00,3184.39,0.00,111.15,0.00
+BG,Insurance and asset management,0.00,0.00,875.32,0.00,16.80,0.00
+BG,Banking and capital markets,0.00,0.00,2143.49,0.00,12.87,0.00
+BG,Digital communications,0.00,0.00,1258.42,0.00,157.64,0.00
+BG,Public services and others,8209.50,947.41,4550.07,109.79,1425.71,0.00
+CY,Forestry,5.97,0.00,0.00,0.00,16.96,0.00
+CY,Agriculture,444.95,0.00,0.00,38.79,41.03,0.00
+CY,Fishery and aquaculture,41.86,0.00,0.00,0.00,9.30,0.00
+CY,Food beverages and tobacco,335.65,6.84,0.00,197.83,134.89,0.00
+CY,Heat utilities,0.00,0.32,0.00,0.00,0.01,0.00
+CY,Construction,1496.69,0.00,0.00,0.00,297.88,0.00
+CY,Electricity,98.87,163.40,0.00,7.30,87.54,0.00
+CY,Water utilities,47.33,0.00,0.00,0.00,7.01,0.00
+CY,Supply chain and transport,284.85,2783.58,0.00,1078.12,934.86,0.00
+CY,Chemical and materials industry,390.06,274.05,0.00,181.78,304.90,0.00
+CY,Aviation travel and tourism,1343.92,0.00,0.00,0.00,805.10,0.00
+CY,Real estate,0.00,717.27,0.00,0.00,112.37,0.00
+CY,Mining and metals,67.21,0.00,0.00,0.00,17.24,0.00
+CY,Retail consumer goods and lifestyle,883.35,377.71,0.00,0.00,434.84,0.00
+CY,Oil and gas,0.00,0.07,0.00,0.00,1.28,0.00
+CY,Automotive,1.73,260.97,0.00,0.00,79.00,0.00
+CY,Healthcare delivery,885.42,0.00,0.00,0.00,257.56,0.00
+CY,Electronics,0.00,69.83,0.00,0.00,76.51,0.00
+CY,Information technology,0.00,0.00,809.62,0.00,1028.69,0.00
+CY,Insurance and asset management,0.00,0.00,548.84,152.50,79.40,0.00
+CY,Banking and capital markets,0.00,0.00,792.47,1630.63,0.00,0.00
+CY,Digital communications,0.00,0.00,415.94,0.00,75.73,0.00
+CY,Public services and others,4656.65,120.78,3568.62,541.92,803.31,0.00
+CZ,Forestry,746.51,0.00,0.00,0.00,233.56,0.00
+CZ,Agriculture,4170.90,0.00,0.00,728.68,1464.27,84.61
+CZ,Fishery and aquaculture,30.64,0.00,0.00,0.00,18.89,0.00
+CZ,Food beverages and tobacco,3535.22,788.74,0.00,1809.81,2110.30,0.00
+CZ,Heat utilities,0.00,146.81,0.00,0.00,242.24,0.00
+CZ,Construction,12349.73,0.00,0.00,0.00,3838.48,0.00
+CZ,Electricity,250.30,4655.36,3.40,64.57,1934.62,0.00
+CZ,Water utilities,947.97,0.00,0.00,0.00,177.30,0.00
+CZ,Supply chain and transport,10061.91,12358.49,0.00,342.53,2471.89,0.00
+CZ,Chemical and materials industry,5756.28,13264.75,0.00,1654.83,13336.85,0.00
+CZ,Aviation travel and tourism,2916.66,0.00,0.00,1172.52,0.00,0.00
+CZ,Real estate,22163.78,0.00,0.00,0.00,3168.34,0.00
+CZ,Mining and metals,800.08,0.00,0.00,0.77,293.71,0.00
+CZ,Retail consumer goods and lifestyle,10237.75,11494.57,0.00,0.00,3019.58,0.00
+CZ,Oil and gas,0.00,112.88,0.00,0.00,709.58,0.00
+CZ,Automotive,900.62,13234.97,0.00,0.00,18330.30,0.00
+CZ,Healthcare delivery,14693.70,0.00,0.00,0.00,1603.66,0.00
+CZ,Electronics,0.00,2272.21,0.00,180.44,19372.80,0.00
+CZ,Information technology,0.00,0.00,8046.93,0.00,752.73,0.00
+CZ,Insurance and asset management,0.00,0.00,2230.09,0.00,389.14,0.00
+CZ,Banking and capital markets,0.00,0.00,5819.70,0.00,171.17,0.00
+CZ,Digital communications,0.00,0.00,3573.85,0.00,476.40,0.00
+CZ,Public services and others,26200.50,16669.99,4916.30,443.97,11910.15,0.00
+DE,Forestry,2963.05,0.00,0.00,233.87,0.00,0.00
+DE,Agriculture,28629.50,0.00,0.00,1729.11,5068.26,0.00
+DE,Fishery and aquaculture,210.57,0.00,0.00,62.49,0.00,0.00
+DE,Food beverages and tobacco,39212.34,8226.24,0.00,42497.54,319.64,0.00
+DE,Heat utilities,0.00,419.03,0.00,0.00,458.63,0.00
+DE,Construction,185617.75,0.00,0.00,0.00,38409.55,0.00
+DE,Electricity,9785.87,61650.91,67.51,0.00,9311.15,0.00
+DE,Water utilities,6787.55,0.00,0.00,0.00,501.01,0.00
+DE,Supply chain and transport,115177.47,107206.06,0.00,66177.89,5573.98,0.00
+DE,Chemical and materials industry,62137.86,214000.23,0.00,32937.64,80288.31,0.00
+DE,Aviation travel and tourism,55018.36,0.00,0.00,25860.85,0.00,0.00
+DE,Real estate,322931.28,0.00,0.00,0.00,10546.09,0.00
+DE,Mining and metals,2526.49,0.00,0.00,0.07,448.54,0.00
+DE,Retail consumer goods and lifestyle,124073.70,3294.29,141062.34,21602.26,12672.65,0.00
+DE,Oil and gas,0.00,7648.42,0.00,0.00,15951.53,0.00
+DE,Automotive,32260.40,215291.34,0.00,12896.47,81164.39,0.00
+DE,Healthcare delivery,249514.60,0.00,0.00,21589.82,0.00,0.00
+DE,Electronics,0.00,58473.47,0.00,0.00,9243.40,0.00
+DE,Information technology,0.00,0.00,81028.92,0.00,6380.06,0.00
+DE,Insurance and asset management,0.00,0.00,53726.42,0.00,7689.78,0.00
+DE,Banking and capital markets,0.00,0.00,72118.50,0.00,4718.16,0.00
+DE,Digital communications,0.00,0.00,108962.06,0.00,4372.35,0.00
+DE,Public services and others,593447.79,177646.17,264301.88,270.17,106545.55,0.00
+DK,Forestry,318.52,0.00,0.00,33.96,0.00,0.00
+DK,Agriculture,5515.41,0.00,0.00,1048.71,849.72,0.00
+DK,Fishery and aquaculture,882.25,0.00,0.00,138.16,0.00,0.00
+DK,Food beverages and tobacco,4400.85,266.70,0.00,6892.05,0.00,0.00
+DK,Heat utilities,0.00,6.24,0.00,0.00,10.92,0.00
+DK,Construction,0.00,17024.91,0.00,0.00,11255.34,0.00
+DK,Electricity,547.46,1376.21,0.00,15.28,691.29,0.00
+DK,Water utilities,835.37,0.00,0.00,0.00,91.39,0.00
+DK,Supply chain and transport,10592.82,9564.54,0.00,23004.63,647.46,0.00
+DK,Chemical and materials industry,19083.51,10056.90,0.00,6734.94,4406.37,0.00
+DK,Aviation travel and tourism,8382.09,0.00,0.00,1427.52,0.00,0.00
+DK,Real estate,0.00,34358.32,0.00,0.00,884.89,0.00
+DK,Mining and metals,0.34,5.20,0.00,5.30,112.29,0.00
+DK,Retail consumer goods and lifestyle,16804.72,17528.99,0.00,4801.80,1470.90,0.00
+DK,Oil and gas,0.00,1805.25,0.00,41.26,820.53,0.00
+DK,Automotive,583.76,4763.55,0.00,476.41,1602.40,0.00
+DK,Healthcare delivery,32809.19,0.00,0.00,3093.78,0.00,0.00
+DK,Electronics,0.00,0.90,0.00,0.00,2118.27,0.00
+DK,Information technology,0.00,0.00,3860.81,0.00,1215.60,0.00
+DK,Insurance and asset management,0.00,0.00,4198.41,0.00,265.63,0.00
+DK,Banking and capital markets,0.00,0.00,11726.42,0.00,432.02,0.00
+DK,Digital communications,0.00,0.00,13930.05,0.00,1307.12,0.00
+DK,Public services and others,51594.64,17036.59,11137.57,2229.51,12463.40,0.00
+EE,Forestry,320.57,0.00,0.00,0.00,45.86,0.00
+EE,Agriculture,452.33,0.00,0.00,233.83,33.64,0.00
+EE,Fishery and aquaculture,44.75,0.00,0.00,0.00,10.60,0.00
+EE,Food beverages and tobacco,378.37,69.85,0.00,738.62,36.47,0.00
+EE,Heat utilities,0.00,14.79,0.00,0.00,35.86,0.00
+EE,Construction,1971.40,0.00,0.00,0.00,178.13,0.00
+EE,Electricity,105.96,561.62,0.00,192.08,40.42,0.00
+EE,Water utilities,97.45,0.00,0.00,0.00,12.40,0.00
+EE,Supply chain and transport,1294.28,1641.38,0.00,284.93,278.07,0.00
+EE,Chemical and materials industry,386.32,1686.79,0.00,455.80,3161.72,0.00
+EE,Aviation travel and tourism,322.58,0.00,0.00,302.49,0.00,0.00
+EE,Real estate,0.00,2358.01,0.00,0.00,176.27,0.00
+EE,Mining and metals,0.00,0.00,0.00,0.00,0.31,0.00
+EE,Retail consumer goods and lifestyle,1176.51,15.08,1933.98,0.00,707.33,0.00
+EE,Oil and gas,0.00,340.05,0.00,0.00,86.24,0.00
+EE,Automotive,23.85,478.43,0.00,0.00,388.21,0.00
+EE,Healthcare delivery,1234.76,0.00,0.00,0.00,154.37,0.00
+EE,Electronics,0.00,1763.27,0.00,0.00,3315.26,0.00
+EE,Information technology,0.00,0.00,1356.57,0.00,102.69,0.00
+EE,Insurance and asset management,0.00,0.00,250.38,0.00,24.77,0.00
+EE,Banking and capital markets,0.00,0.00,873.70,0.00,53.41,0.00
+EE,Digital communications,0.00,0.00,483.54,0.00,195.58,0.00
+EE,Public services and others,4219.58,273.24,1335.49,407.06,1592.15,0.00
+ES,Forestry,1460.15,0.00,0.00,0.00,22.67,0.00
+ES,Agriculture,30947.84,0.00,0.00,3250.33,1397.15,103.36
+ES,Fishery and aquaculture,1425.40,0.00,0.00,0.00,328.30,0.00
+ES,Food beverages and tobacco,28264.44,202.43,0.00,11543.76,5215.58,0.00
+ES,Heat utilities,0.00,0.00,0.00,0.00,0.00,0.00
+ES,Construction,70542.44,0.00,0.00,0.00,11806.36,0.00
+ES,Electricity,3926.78,21399.72,4.27,47.08,4585.92,0.00
+ES,Water utilities,7614.25,0.00,0.00,0.00,884.58,0.00
+ES,Supply chain and transport,29840.31,33239.39,0.00,0.00,6819.70,0.00
+ES,Chemical and materials industry,12001.56,61957.15,0.00,11662.99,17387.96,0.00
+ES,Aviation travel and tourism,74892.87,0.00,0.00,0.00,7745.86,0.00
+ES,Real estate,118034.07,0.00,0.00,19188.65,0.00,0.00
+ES,Mining and metals,2129.68,0.00,0.00,985.61,324.57,0.00
+ES,Retail consumer goods and lifestyle,75729.97,9631.56,0.00,0.00,3436.63,0.00
+ES,Oil and gas,5236.55,2.09,0.00,0.00,17453.07,0.00
+ES,Automotive,6300.25,42615.89,0.00,5120.72,28746.21,0.00
+ES,Healthcare delivery,82101.20,0.00,0.00,0.00,6599.77,0.00
+ES,Electronics,0.00,3872.23,0.00,9097.08,9.23,0.00
+ES,Information technology,0.00,0.00,22186.74,0.00,2649.82,0.00
+ES,Insurance and asset management,0.00,0.00,15053.70,0.00,1371.40,0.00
+ES,Banking and capital markets,0.00,0.00,33461.04,0.00,821.88,0.00
+ES,Digital communications,0.00,0.00,24842.50,0.00,2359.33,0.00
+ES,Public services and others,186741.05,19882.71,92444.95,2350.27,14745.18,0.00
+FI,Forestry,5604.66,0.00,0.00,0.00,40.90,0.00
+FI,Agriculture,1081.70,0.00,0.00,337.34,186.79,0.00
+FI,Fishery and aquaculture,103.14,0.00,0.00,0.00,23.08,0.00
+FI,Food beverages and tobacco,2963.57,0.00,0.00,1988.41,191.94,0.00
+FI,Heat utilities,0.00,54.46,0.00,0.00,80.03,0.00
+FI,Construction,18380.91,0.00,0.00,8939.11,0.00,0.00
+FI,Electricity,1278.76,3186.45,0.38,110.28,191.12,0.00
+FI,Water utilities,569.61,0.00,0.00,0.00,70.52,0.00
+FI,Supply chain and transport,6854.82,2630.30,0.00,182.49,1317.23,0.00
+FI,Chemical and materials industry,2981.15,19360.13,0.00,3018.38,7546.61,0.00
+FI,Aviation travel and tourism,3053.93,0.00,0.00,898.94,571.12,0.00
+FI,Real estate,0.00,28138.64,0.00,9616.49,0.00,0.00
+FI,Mining and metals,912.19,0.00,0.00,87.44,143.35,0.00
+FI,Retail consumer goods and lifestyle,7162.81,11248.03,0.00,0.00,2492.48,0.00
+FI,Oil and gas,544.82,7.95,0.00,414.26,2926.71,0.00
+FI,Automotive,419.23,3930.57,0.00,0.00,2226.24,0.00
+FI,Healthcare delivery,18339.21,0.00,0.00,1927.88,0.00,0.00
+FI,Electronics,41.07,8227.64,0.00,0.00,1255.30,0.00
+FI,Information technology,0.00,2234.80,0.00,0.00,661.51,0.00
+FI,Insurance and asset management,0.00,0.00,3281.49,0.00,281.85,0.00
+FI,Banking and capital markets,0.00,0.00,3960.78,0.00,237.86,0.00
+FI,Digital communications,0.00,0.00,17098.09,0.00,599.06,0.00
+FI,Public services and others,40168.88,8664.94,15557.09,540.40,8430.25,0.00
+FR,Forestry,2884.26,0.00,0.00,0.00,217.48,0.00
+FR,Agriculture,38706.21,0.00,0.00,2369.33,5948.70,0.00
+FR,Fishery and aquaculture,841.27,0.00,0.00,0.00,328.52,0.00
+FR,Food beverages and tobacco,81837.34,671.79,0.00,8088.75,10767.92,0.00
+FR,Heat utilities,0.00,6.62,0.00,0.00,0.00,0.00
+FR,Construction,124608.72,0.00,0.00,0.00,34803.48,0.00
+FR,Electricity,1484.30,52095.86,0.84,57.01,12774.08,0.00
+FR,Water utilities,6460.86,0.00,0.00,0.00,594.80,0.00
+FR,Supply chain and transport,84653.98,64023.56,0.00,4102.54,8758.49,0.00
+FR,Chemical and materials industry,31225.40,76882.75,0.00,7048.76,31705.01,0.00
+FR,Aviation travel and tourism,78078.50,0.00,0.00,0.00,11506.67,0.00
+FR,Real estate,0.00,274270.46,0.00,0.00,11475.04,0.00
+FR,Mining and metals,862.56,0.00,0.00,168.87,122.12,0.00
+FR,Retail consumer goods and lifestyle,98060.33,92387.24,0.00,0.00,18470.89,0.00
+FR,Oil and gas,0.00,801.83,0.00,0.00,8866.26,24.88
+FR,Automotive,38988.16,55992.30,0.00,16847.96,23469.09,0.00
+FR,Healthcare delivery,211546.72,0.00,0.00,0.00,9830.70,0.00
+FR,Electronics,0.00,1.16,0.00,0.00,3515.24,0.00
+FR,Information technology,0.00,0.00,63476.01,0.00,5693.03,0.00
+FR,Insurance and asset management,0.00,0.00,41303.04,0.00,4321.56,0.00
+FR,Banking and capital markets,0.00,0.00,50465.86,0.00,1113.38,0.00
+FR,Digital communications,0.00,0.00,69652.65,0.00,2806.80,0.00
+FR,Public services and others,449740.23,38960.77,179489.52,6.35,55346.85,0.00
+GR,Forestry,63.74,0.00,0.00,0.00,4.08,0.00
+GR,Agriculture,7417.80,0.00,0.00,325.44,6282.29,0.00
+GR,Fishery and aquaculture,621.63,0.00,0.00,0.00,83.57,0.00
+GR,Food beverages and tobacco,9700.36,258.83,0.00,1708.64,2046.67,0.00
+GR,Heat utilities,0.00,9.92,0.00,0.00,314.28,0.00
+GR,Construction,3954.65,0.00,0.00,0.00,1304.16,0.00
+GR,Electricity,2670.43,2216.34,0.00,0.00,505.26,0.00
+GR,Water utilities,750.86,0.00,0.00,0.00,61.64,0.00
+GR,Supply chain and transport,8884.17,3293.19,0.00,4417.52,951.75,0.00
+GR,Chemical and materials industry,2632.56,5141.31,0.00,1798.07,2731.97,0.00
+GR,Aviation travel and tourism,6641.09,0.00,0.00,1648.84,163.98,0.00
+GR,Real estate,23739.50,0.00,0.00,0.00,248.04,0.00
+GR,Mining and metals,531.96,0.00,0.00,131.96,615.83,0.00
+GR,Retail consumer goods and lifestyle,7281.39,11930.65,0.00,0.00,1346.49,0.00
+GR,Oil and gas,0.00,477.05,0.00,0.00,4878.59,0.00
+GR,Automotive,488.50,1694.50,0.00,0.00,270.41,0.00
+GR,Healthcare delivery,7432.61,0.00,0.00,0.00,647.78,0.00
+GR,Electronics,0.00,807.96,0.00,0.00,557.80,0.00
+GR,Information technology,0.00,0.00,1532.59,0.00,95.70,0.00
+GR,Insurance and asset management,0.00,0.00,1254.00,0.00,43.79,0.00
+GR,Banking and capital markets,0.00,0.00,5767.44,0.00,123.54,0.00
+GR,Digital communications,0.00,0.00,3676.06,0.00,482.18,0.00
+GR,Public services and others,24253.97,1410.39,18869.91,1937.06,2434.85,0.00
+HR,Forestry,233.08,0.00,0.00,20.90,0.00,0.00
+HR,Agriculture,1569.02,0.00,0.00,667.77,58.17,0.00
+HR,Fishery and aquaculture,185.27,0.00,0.00,0.00,57.24,0.00
+HR,Food beverages and tobacco,1751.30,0.00,0.00,784.48,503.79,0.00
+HR,Heat utilities,0.00,4.43,0.00,0.00,54.79,0.00
+HR,Construction,3175.71,0.00,0.00,0.00,1234.92,0.00
+HR,Electricity,445.69,1088.12,0.00,36.94,403.29,0.00
+HR,Water utilities,211.63,0.00,0.00,0.47,30.91,0.00
+HR,Supply chain and transport,4020.33,869.15,0.00,168.80,488.95,0.00
+HR,Chemical and materials industry,784.80,2316.93,0.00,225.95,2092.32,0.00
+HR,Aviation travel and tourism,1975.61,0.00,0.00,547.14,0.00,57.14
+HR,Real estate,3739.00,0.00,0.00,0.00,235.92,0.00
+HR,Mining and metals,11.12,0.00,0.00,0.00,13.33,0.00
+HR,Retail consumer goods and lifestyle,2473.55,2309.70,0.00,490.46,719.65,0.00
+HR,Oil and gas,0.00,151.54,0.00,679.53,810.12,0.00
+HR,Automotive,130.22,646.14,0.00,0.00,257.79,0.00
+HR,Healthcare delivery,2570.86,0.00,0.00,0.00,715.43,0.00
+HR,Electronics,0.00,2700.15,0.00,0.00,550.14,0.00
+HR,Information technology,0.00,0.00,1076.00,0.00,118.50,0.00
+HR,Insurance and asset management,0.00,0.00,705.98,0.00,88.49,0.00
+HR,Banking and capital markets,0.00,0.00,1802.19,0.00,45.03,0.00
+HR,Digital communications,0.00,0.00,1058.88,0.00,118.29,0.00
+HR,Public services and others,7621.06,972.78,3716.72,203.04,1660.18,0.00
+HU,Forestry,235.55,0.00,0.00,42.62,0.00,0.00
+HU,Agriculture,5626.08,0.00,0.00,1472.39,428.14,0.00
+HU,Fishery and aquaculture,19.29,0.00,0.00,0.00,6.69,0.00
+HU,Food beverages and tobacco,2384.53,57.45,0.00,3390.39,968.01,0.00
+HU,Heat utilities,0.00,39.75,0.00,0.00,91.59,0.00
+HU,Construction,7770.78,0.00,0.00,0.00,3621.95,0.00
+HU,Electricity,1014.77,910.49,3.78,32.66,343.17,0.00
+HU,Water utilities,504.44,0.00,0.00,0.00,118.75,0.00
+HU,Supply chain and transport,11550.61,2146.31,0.00,270.04,1700.92,0.00
+HU,Chemical and materials industry,1891.45,7603.61,0.00,2507.85,9874.77,0.00
+HU,Aviation travel and tourism,1742.44,0.00,0.00,1048.32,1158.39,0.00
+HU,Real estate,15674.19,0.00,0.00,0.00,1117.44,0.00
+HU,Mining and metals,20.14,0.00,0.00,0.15,28.07,0.00
+HU,Retail consumer goods and lifestyle,10469.82,2882.07,0.00,131.43,3716.38,0.00
+HU,Oil and gas,590.29,316.17,0.00,0.00,1593.39,0.00
+HU,Automotive,258.37,15610.02,0.00,540.95,8952.00,0.00
+HU,Healthcare delivery,2723.26,0.00,0.00,0.00,711.55,0.00
+HU,Electronics,0.00,2207.10,0.00,16855.03,0.00,0.00
+HU,Information technology,0.00,0.00,3369.69,0.00,534.42,0.00
+HU,Insurance and asset management,0.00,0.00,1165.71,0.00,155.11,0.00
+HU,Banking and capital markets,0.00,0.00,3696.54,0.00,176.06,0.00
+HU,Digital communications,0.00,0.00,2447.90,0.00,313.22,0.00
+HU,Public services and others,21247.43,2187.95,9245.46,1379.56,7785.64,0.00
+IE,Forestry,18.46,0.00,0.00,0.00,33.58,0.00
+IE,Agriculture,3380.28,0.00,0.00,931.07,1286.06,0.00
+IE,Fishery and aquaculture,225.82,0.00,0.00,0.00,107.32,0.00
+IE,Food beverages and tobacco,24491.62,0.00,0.00,1615.88,7165.57,0.00
+IE,Heat utilities,0.00,0.00,0.00,0.00,0.00,0.00
+IE,Construction,9343.87,0.00,0.00,0.00,21988.07,0.00
+IE,Electricity,1178.54,3831.67,0.00,20.08,1305.33,0.00
+IE,Water utilities,1035.84,0.00,0.00,0.00,191.29,0.00
+IE,Supply chain and transport,1205.74,3141.89,0.00,6832.72,12012.71,0.00
+IE,Chemical and materials industry,14229.57,10058.50,0.00,40047.82,4385.77,0.00
+IE,Aviation travel and tourism,64833.39,0.00,0.00,0.00,961.42,2843.58
+IE,Real estate,23774.30,0.00,0.00,0.00,3887.35,0.00
+IE,Mining and metals,257.38,0.00,0.00,0.00,229.08,0.00
+IE,Retail consumer goods and lifestyle,10637.87,0.88,12862.89,0.00,21380.16,0.00
+IE,Oil and gas,0.00,433.60,0.00,57.23,164.33,0.00
+IE,Automotive,161.77,1952.78,0.00,0.00,867.41,0.00
+IE,Healthcare delivery,12120.72,0.00,0.00,0.00,1591.80,0.00
+IE,Electronics,0.00,57881.94,0.00,0.00,10651.30,0.00
+IE,Information technology,0.00,0.00,23285.19,0.00,29891.16,0.00
+IE,Insurance and asset management,0.00,0.00,3561.29,0.00,1361.87,11513.54
+IE,Banking and capital markets,0.00,0.00,122.47,0.00,0.00,13257.86
+IE,Digital communications,0.00,0.00,4962.99,0.00,2439.07,0.00
+IE,Public services and others,65869.32,4323.98,13650.54,4762.54,58790.67,0.00
+IT,Forestry,2001.25,0.00,0.00,0.00,23.75,0.00
+IT,Agriculture,34348.18,0.00,0.00,1323.92,2004.26,0.00
+IT,Fishery and aquaculture,884.19,0.00,0.00,151.99,0.00,0.00
+IT,Food beverages and tobacco,43389.02,394.34,0.00,20591.18,0.00,0.00
+IT,Heat utilities,0.00,69.85,0.00,1175.18,0.00,0.00
+IT,Construction,73056.48,0.00,0.00,35656.58,0.00,0.00
+IT,Electricity,4833.83,11650.58,11.35,0.00,5249.04,0.00
+IT,Water utilities,8701.45,0.00,0.00,0.00,707.76,0.00
+IT,Supply chain and transport,68662.46,51301.11,0.00,0.00,8254.39,0.00
+IT,Chemical and materials industry,27299.36,116346.25,0.00,10203.43,54227.60,0.00
+IT,Aviation travel and tourism,59481.05,0.00,0.00,5920.27,1298.43,0.00
+IT,Real estate,226429.07,0.00,0.00,0.00,3106.08,0.00
+IT,Mining and metals,1599.94,0.00,0.00,131.00,114.21,0.00
+IT,Retail consumer goods and lifestyle,82700.85,89110.42,0.00,0.00,12273.78,0.00
+IT,Oil and gas,0.00,2674.80,0.00,0.15,15105.89,0.00
+IT,Automotive,10587.67,35371.74,0.00,0.00,21261.29,0.00
+IT,Healthcare delivery,110306.38,0.00,0.00,0.00,8901.93,0.00
+IT,Electronics,0.00,8792.38,0.00,110.95,9006.18,0.00
+IT,Information technology,0.00,0.00,22522.22,0.00,3216.43,0.00
+IT,Insurance and asset management,0.00,0.00,28309.88,0.00,269.34,2815.12
+IT,Banking and capital markets,0.00,0.00,46961.32,0.00,1003.43,0.00
+IT,Digital communications,0.00,0.00,32480.50,0.00,2048.39,0.00
+IT,Public services and others,257526.89,71326.21,131484.76,65.58,43302.73,0.00
+LT,Forestry,284.22,0.00,0.00,76.40,0.00,0.00
+LT,Agriculture,2058.19,0.00,0.00,258.70,994.77,0.00
+LT,Fishery and aquaculture,34.14,0.00,0.00,39.78,0.00,0.00
+LT,Food beverages and tobacco,1440.38,0.00,0.00,777.08,664.81,0.00
+LT,Heat utilities,0.00,0.99,0.00,0.00,13.81,0.00
+LT,Construction,3603.33,0.00,0.00,0.00,1488.97,0.00
+LT,Electricity,92.52,407.51,0.00,0.00,201.78,0.00
+LT,Water utilities,160.62,0.00,0.00,7.46,16.95,0.00
+LT,Supply chain and transport,6283.48,578.45,0.00,0.00,1442.59,0.00
+LT,Chemical and materials industry,895.04,2279.00,0.00,754.07,985.81,0.00
+LT,Aviation travel and tourism,794.78,0.00,0.00,469.48,0.00,0.00
+LT,Real estate,1411.16,0.00,0.00,0.00,239.04,0.00
+LT,Mining and metals,121.16,0.00,0.00,0.28,23.99,0.00
+LT,Retail consumer goods and lifestyle,3115.29,4154.38,0.00,0.00,683.64,0.00
+LT,Oil and gas,3767.65,8.60,0.00,0.00,3937.83,0.00
+LT,Automotive,174.86,1036.18,0.00,0.00,322.46,0.00
+LT,Healthcare delivery,2642.92,0.00,0.00,0.00,353.45,0.00
+LT,Electronics,0.00,1538.29,0.00,1134.01,0.00,0.00
+LT,Information technology,0.00,558.33,0.00,0.00,55.38,0.00
+LT,Insurance and asset management,0.00,0.00,433.03,0.00,29.10,0.00
+LT,Banking and capital markets,0.00,0.00,675.25,0.00,45.40,0.00
+LT,Digital communications,0.00,0.00,258.43,0.00,71.22,0.00
+LT,Public services and others,7560.79,531.25,2869.19,14.09,1229.54,0.00
+LU,Forestry,12.01,0.00,0.00,0.00,6.93,0.00
+LU,Agriculture,146.06,0.00,0.00,119.51,45.48,0.00
+LU,Fishery and aquaculture,0.00,0.00,0.00,0.00,0.00,0.00
+LU,Food beverages and tobacco,387.37,150.78,0.00,1952.58,856.09,0.00
+LU,Heat utilities,0.00,0.61,0.00,0.00,22.67,0.00
+LU,Construction,3797.39,0.00,0.00,0.00,3070.51,0.00
+LU,Electricity,1.77,262.81,0.00,20.14,269.61,0.00
+LU,Water utilities,89.42,0.00,0.00,0.00,28.55,0.00
+LU,Supply chain and transport,1558.50,1297.62,0.00,194.76,3233.70,0.00
+LU,Chemical and materials industry,754.72,1049.74,0.00,1065.98,2349.18,0.00
+LU,Aviation travel and tourism,2131.36,0.00,0.00,0.00,1296.17,0.00
+LU,Real estate,7324.81,0.00,0.00,0.00,592.50,0.00
+LU,Mining and metals,307.20,0.00,0.00,0.00,35.03,0.00
+LU,Retail consumer goods and lifestyle,1232.31,2661.30,0.00,0.00,2608.35,0.00
+LU,Oil and gas,33.76,1.07,0.00,3.42,0.34,0.00
+LU,Automotive,270.85,1090.91,0.00,0.00,1865.86,0.00
+LU,Healthcare delivery,3669.04,0.00,0.00,0.00,2276.09,0.00
+LU,Electronics,0.00,254.30,0.00,1473.27,310.43,0.00
+LU,Information technology,0.00,242.95,0.00,0.00,1242.68,0.00
+LU,Insurance and asset management,0.00,0.00,2306.39,0.00,4576.78,0.00
+LU,Banking and capital markets,0.00,0.00,8854.42,0.00,33883.16,0.00
+LU,Digital communications,0.00,0.00,5154.11,0.00,111.71,0.00
+LU,Public services and others,15553.51,402.75,3780.95,6304.82,2825.84,0.00
+LV,Forestry,874.07,0.00,0.00,68.15,0.00,0.00
+LV,Agriculture,797.13,0.00,0.00,292.84,96.87,0.00
+LV,Fishery and aquaculture,37.59,0.00,0.00,9.16,0.00,0.00
+LV,Food beverages and tobacco,302.55,187.71,0.00,884.62,0.61,0.00
+LV,Heat utilities,0.00,0.72,0.00,6.59,0.00,0.00
+LV,Construction,0.00,2082.89,0.00,0.00,1651.37,0.00
+LV,Electricity,77.14,643.69,0.00,13.73,234.02,0.00
+LV,Water utilities,65.63,0.00,0.00,0.00,13.97,0.00
+LV,Supply chain and transport,1880.41,1680.24,0.00,215.23,642.79,0.00
+LV,Chemical and materials industry,531.36,2542.92,0.00,440.74,1532.94,0.00
+LV,Aviation travel and tourism,396.75,0.00,0.00,385.88,0.00,0.00
+LV,Real estate,2148.13,0.00,0.00,1786.46,0.00,0.00
+LV,Mining and metals,157.54,0.01,0.00,4.30,2.89,0.00
+LV,Retail consumer goods and lifestyle,2985.93,867.35,0.00,345.70,315.86,0.00
+LV,Oil and gas,0.00,0.15,0.00,0.87,0.00,0.00
+LV,Automotive,42.62,482.76,0.00,0.00,162.86,0.00
+LV,Healthcare delivery,1294.04,0.00,0.00,185.07,0.00,0.00
+LV,Electronics,0.00,458.47,0.00,0.00,258.55,0.00
+LV,Information technology,0.00,0.00,962.60,0.00,53.31,0.00
+LV,Insurance and asset management,0.00,0.00,282.64,0.00,21.46,0.00
+LV,Banking and capital markets,0.00,0.00,597.68,0.00,21.69,0.00
+LV,Digital communications,0.00,0.00,476.30,0.00,95.05,0.00
+LV,Public services and others,4243.14,622.35,2571.42,238.08,670.94,0.00
+MT,Forestry,0.00,0.00,0.00,0.00,0.00,0.00
+MT,Agriculture,123.84,0.00,0.00,18.64,60.95,0.00
+MT,Fishery and aquaculture,0.00,0.00,0.00,0.00,155.00,0.00
+MT,Food beverages and tobacco,142.16,1.54,0.00,9.36,27.85,0.00
+MT,Heat utilities,0.00,0.00,0.00,0.00,0.00,0.00
+MT,Construction,699.32,0.00,0.00,0.00,549.14,0.00
+MT,Electricity,1.29,4.44,0.00,2.47,147.64,0.00
+MT,Water utilities,45.09,0.00,0.00,0.00,24.24,0.00
+MT,Supply chain and transport,150.40,1271.89,0.00,0.00,96.63,0.00
+MT,Chemical and materials industry,146.84,119.12,0.00,11.08,789.35,0.00
+MT,Aviation travel and tourism,348.50,0.00,0.00,0.00,638.51,0.00
+MT,Real estate,0.00,28.68,0.00,0.00,53.54,0.00
+MT,Mining and metals,92.03,0.00,0.00,0.00,6.19,0.00
+MT,Retail consumer goods and lifestyle,516.79,481.17,0.00,0.00,198.29,0.00
+MT,Oil and gas,0.00,0.56,0.00,0.00,0.11,0.00
+MT,Automotive,0.00,110.28,0.00,0.00,211.39,0.00
+MT,Healthcare delivery,889.46,0.00,0.00,0.00,297.38,0.00
+MT,Electronics,0.00,698.14,0.00,0.00,9.65,0.00
+MT,Information technology,0.00,0.00,814.19,0.00,1325.79,0.00
+MT,Insurance and asset management,0.00,0.00,332.75,0.00,34.30,0.00
+MT,Banking and capital markets,0.00,0.00,113.87,0.00,2523.72,0.00
+MT,Digital communications,0.00,0.00,202.31,0.00,132.17,0.00
+MT,Public services and others,5113.73,78.35,637.21,499.87,4343.16,0.00
+NL,Forestry,182.23,0.00,0.00,83.11,0.00,0.00
+NL,Agriculture,14342.42,0.00,0.00,3874.24,2.81,0.00
+NL,Fishery and aquaculture,557.78,0.00,0.00,0.00,96.20,0.00
+NL,Food beverages and tobacco,22135.70,1970.37,0.00,31825.25,139.99,0.00
+NL,Heat utilities,0.00,100.15,0.00,0.00,245.27,0.00
+NL,Construction,45625.80,0.00,0.00,0.00,20511.95,0.00
+NL,Electricity,2807.99,4082.63,44.75,794.60,4205.62,0.00
+NL,Water utilities,1341.01,0.00,0.00,0.00,211.48,0.00
+NL,Supply chain and transport,23464.35,30646.09,0.00,16850.79,863.15,0.00
+NL,Chemical and materials industry,5708.50,33711.08,0.00,10080.83,20029.02,0.00
+NL,Aviation travel and tourism,26399.95,0.00,0.00,7444.22,0.00,0.00
+NL,Real estate,0.00,61887.68,0.00,0.00,9831.17,0.00
+NL,Mining and metals,65.72,0.00,0.00,7.30,95.85,0.10
+NL,Retail consumer goods and lifestyle,30728.38,16.90,59978.57,7069.68,4710.43,0.00
+NL,Oil and gas,664.80,3976.16,0.00,0.00,27075.80,0.00
+NL,Automotive,4747.78,18462.85,0.00,0.00,17999.37,0.00
+NL,Healthcare delivery,74808.28,0.00,0.00,6016.06,0.00,0.00
+NL,Electronics,0.00,5506.74,0.00,0.00,13248.70,0.00
+NL,Information technology,0.00,0.00,9378.59,0.00,7037.97,0.00
+NL,Insurance and asset management,0.00,0.00,17082.31,0.00,3490.57,0.00
+NL,Banking and capital markets,0.00,0.00,33925.31,0.00,1003.78,0.00
+NL,Digital communications,0.00,0.00,22324.13,0.00,2233.42,0.00
+NL,Public services and others,147559.19,28653.67,63639.43,31620.66,34427.14,0.00
+PL,Forestry,1929.75,0.00,0.00,0.00,135.67,0.00
+PL,Agriculture,13383.25,0.00,0.00,1862.43,788.60,0.00
+PL,Fishery and aquaculture,140.02,0.00,0.00,11.09,0.00,0.00
+PL,Food beverages and tobacco,19519.70,518.48,0.00,15141.99,77.61,0.00
+PL,Heat utilities,269.43,0.00,0.00,0.00,376.97,0.00
+PL,Construction,40015.38,0.00,0.00,0.00,13389.23,0.00
+PL,Electricity,1566.37,10946.59,0.06,7.22,1306.96,0.00
+PL,Water utilities,2224.11,0.00,0.00,0.00,164.33,0.00
+PL,Supply chain and transport,33709.61,16715.00,0.00,42.02,5437.06,0.00
+PL,Chemical and materials industry,9186.85,41922.45,0.00,12193.09,21675.82,0.00
+PL,Aviation travel and tourism,11060.98,0.00,0.00,1177.48,235.17,0.00
+PL,Real estate,27910.01,0.00,0.00,0.00,3445.28,0.00
+PL,Mining and metals,3824.06,0.00,0.00,26.83,1123.75,0.00
+PL,Retail consumer goods and lifestyle,33737.79,33701.50,0.00,0.00,5524.70,0.00
+PL,Oil and gas,3633.72,2591.50,0.00,311.73,2717.19,0.00
+PL,Automotive,2779.11,20419.26,0.00,3960.38,19116.34,0.00
+PL,Healthcare delivery,26818.10,0.00,0.00,0.00,2865.29,0.00
+PL,Electronics,0.00,1068.78,0.00,0.85,5466.20,0.00
+PL,Information technology,0.00,0.00,10028.21,0.00,368.42,0.00
+PL,Insurance and asset management,0.00,0.00,5432.95,0.00,946.19,0.00
+PL,Banking and capital markets,0.00,0.00,15369.22,0.00,785.21,0.00
+PL,Digital communications,0.00,0.00,10767.76,0.00,1605.22,0.00
+PL,Public services and others,67185.55,23605.16,32833.50,2032.26,15304.90,0.00
+PT,Forestry,1703.64,0.00,0.00,0.00,13.25,0.00
+PT,Agriculture,2967.73,0.00,0.00,901.13,40.11,0.00
+PT,Fishery and aquaculture,366.47,0.00,0.00,0.00,67.86,0.00
+PT,Food beverages and tobacco,3609.49,173.43,0.00,2976.74,441.11,0.00
+PT,Heat utilities,0.00,6.88,0.00,0.00,5.53,0.00
+PT,Construction,10224.04,0.00,0.00,0.00,3491.99,0.00
+PT,Electricity,1142.18,2466.08,0.00,548.19,219.00,0.00
+PT,Water utilities,805.70,0.00,0.00,0.00,77.21,0.00
+PT,Supply chain and transport,4334.64,9101.04,0.00,65.72,1252.37,0.00
+PT,Chemical and materials industry,3354.82,11695.06,0.00,3050.17,4879.77,0.00
+PT,Aviation travel and tourism,8296.32,0.00,0.00,1598.91,676.77,0.00
+PT,Real estate,23100.54,0.00,0.00,0.00,555.62,0.00
+PT,Mining and metals,566.13,0.00,0.00,0.00,113.21,0.00
+PT,Retail consumer goods and lifestyle,9141.08,14998.31,0.00,0.00,2720.28,0.00
+PT,Oil and gas,402.27,54.79,0.00,0.00,3050.44,0.00
+PT,Automotive,141.00,5128.43,0.00,434.74,5126.01,0.00
+PT,Healthcare delivery,13347.44,0.00,0.00,0.00,1449.49,0.00
+PT,Electronics,0.00,9793.38,0.00,0.00,3913.61,0.00
+PT,Information technology,0.00,0.00,4029.21,0.00,248.71,0.00
+PT,Insurance and asset management,0.00,0.00,2633.16,0.00,187.23,0.00
+PT,Banking and capital markets,0.00,0.00,6714.23,0.00,185.43,0.00
+PT,Digital communications,0.00,0.00,2889.73,0.00,376.14,0.00
+PT,Public services and others,17493.47,14244.29,15593.17,2491.24,2910.39,0.00
+RO,Forestry,831.16,0.00,0.00,0.00,112.53,0.00
+RO,Agriculture,9290.08,0.00,0.00,1566.94,1191.11,0.71
+RO,Fishery and aquaculture,255.68,0.00,0.00,0.00,21.14,0.00
+RO,Food beverages and tobacco,8938.62,91.78,0.00,3210.25,332.78,0.00
+RO,Heat utilities,0.00,5.34,0.00,0.00,95.13,0.00
+RO,Construction,0.00,15222.69,0.00,0.00,4760.16,0.00
+RO,Electricity,720.24,3928.24,0.00,0.00,1656.31,0.00
+RO,Water utilities,479.10,0.00,0.00,0.00,338.52,0.00
+RO,Supply chain and transport,22380.25,2689.02,0.00,1389.95,2670.87,0.00
+RO,Chemical and materials industry,3703.14,9838.95,0.00,1023.51,6818.33,0.00
+RO,Aviation travel and tourism,3914.58,0.00,0.00,841.03,0.00,0.00
+RO,Real estate,12566.02,0.00,0.00,0.00,1053.71,0.00
+RO,Mining and metals,61.11,0.00,0.00,21.31,0.71,0.00
+RO,Retail consumer goods and lifestyle,14003.28,9492.89,0.00,0.00,5162.38,0.00
+RO,Oil and gas,0.00,811.22,0.00,0.00,1991.76,0.00
+RO,Automotive,671.50,13652.26,0.00,0.00,5393.90,0.00
+RO,Healthcare delivery,12373.57,0.00,0.00,1898.19,0.00,0.00
+RO,Electronics,0.00,9008.38,0.00,0.00,148.76,0.00
+RO,Information technology,0.00,0.00,8160.67,0.00,630.37,0.00
+RO,Insurance and asset management,0.00,0.00,1156.27,0.00,173.10,0.00
+RO,Banking and capital markets,0.00,0.00,2794.98,0.00,28.80,0.00
+RO,Digital communications,0.00,0.00,3972.34,0.00,463.02,0.00
+RO,Public services and others,30767.13,2856.45,15431.85,1059.86,6995.09,0.27
+SE,Forestry,3409.12,0.00,0.00,0.00,964.56,0.00
+SE,Agriculture,4164.17,0.00,0.00,114.72,1088.89,0.00
+SE,Fishery and aquaculture,99.51,0.00,0.00,57.58,0.00,0.00
+SE,Food beverages and tobacco,5126.17,0.00,0.00,4548.68,56.18,0.00
+SE,Heat utilities,0.00,35.43,0.00,269.22,0.00,0.00
+SE,Construction,32397.24,0.00,0.00,0.00,8732.32,0.00
+SE,Electricity,5075.71,5277.88,0.00,0.00,3061.99,0.00
+SE,Water utilities,501.91,0.00,0.00,0.00,57.90,0.00
+SE,Supply chain and transport,21858.92,26972.27,0.00,6395.78,1510.73,0.00
+SE,Chemical and materials industry,5070.35,27756.07,0.00,8625.57,10119.39,0.00
+SE,Aviation travel and tourism,8975.50,0.00,0.00,3142.45,1720.80,0.00
+SE,Real estate,44854.77,0.00,0.00,0.00,4930.41,0.00
+SE,Mining and metals,1151.66,0.00,0.00,93.32,101.43,0.00
+SE,Retail consumer goods and lifestyle,15890.01,24464.06,0.00,0.00,5878.78,0.00
+SE,Oil and gas,158.46,189.35,0.00,0.00,4818.59,0.00
+SE,Automotive,2158.77,20616.98,0.00,0.00,16006.82,0.00
+SE,Healthcare delivery,40172.38,0.00,0.00,4579.46,0.00,0.00
+SE,Electronics,0.00,84.36,0.00,8.80,3766.36,0.00
+SE,Information technology,0.00,0.00,20648.69,0.00,4572.31,0.00
+SE,Insurance and asset management,0.00,0.00,5486.68,0.00,571.33,0.00
+SE,Banking and capital markets,0.00,0.00,10151.70,0.00,426.86,0.00
+SE,Digital communications,0.00,0.00,17573.19,0.00,528.60,0.00
+SE,Public services and others,86780.19,16582.53,25263.75,29.07,19504.83,0.00
+SI,Forestry,209.68,0.00,0.00,0.00,24.95,0.00
+SI,Agriculture,915.05,0.00,0.00,519.17,7.58,0.00
+SI,Fishery and aquaculture,0.00,0.00,0.00,0.00,8.49,0.00
+SI,Food beverages and tobacco,653.43,0.00,0.00,486.70,15.47,0.00
+SI,Heat utilities,0.00,7.26,0.00,0.00,19.20,0.00
+SI,Construction,2996.19,0.00,0.00,0.00,808.47,0.00
+SI,Electricity,212.19,709.24,0.00,0.58,507.76,0.00
+SI,Water utilities,190.84,0.00,0.00,0.00,48.69,0.00
+SI,Supply chain and transport,3878.74,1106.47,0.00,1020.44,277.80,0.00
+SI,Chemical and materials industry,1875.52,3992.33,0.00,2633.19,2921.17,0.00
+SI,Aviation travel and tourism,758.82,0.00,0.00,270.96,102.13,0.00
+SI,Real estate,3951.54,0.00,0.00,0.00,99.23,0.00
+SI,Mining and metals,117.23,0.00,0.00,29.61,0.09,0.00
+SI,Retail consumer goods and lifestyle,2134.08,2623.46,0.00,440.09,325.69,0.00
+SI,Oil and gas,0.00,3.12,0.00,2.44,1.36,0.00
+SI,Automotive,0.06,1444.17,0.00,0.00,1053.40,0.00
+SI,Healthcare delivery,1957.76,0.00,0.00,590.70,0.00,0.00
+SI,Electronics,0.00,3162.94,0.00,1330.56,0.00,0.00
+SI,Information technology,0.00,0.00,1038.27,0.00,92.89,0.00
+SI,Insurance and asset management,0.00,0.00,667.12,0.00,73.39,0.00
+SI,Banking and capital markets,0.00,0.00,977.29,0.00,70.24,0.00
+SI,Digital communications,0.00,0.00,713.97,0.00,120.71,0.00
+SI,Public services and others,8461.33,1230.81,1031.58,522.29,2290.59,0.00
+SK,Forestry,357.25,0.00,0.00,61.09,0.00,0.00
+SK,Agriculture,1394.44,0.00,0.00,458.28,269.63,0.00
+SK,Fishery and aquaculture,2.28,0.00,0.00,0.00,1.74,0.00
+SK,Food beverages and tobacco,1313.04,0.21,0.00,926.46,222.08,0.00
+SK,Heat utilities,0.00,2.57,0.00,0.00,92.97,0.00
+SK,Construction,5901.62,0.00,0.00,0.00,1452.25,0.00
+SK,Electricity,208.57,2381.27,1.06,0.00,1588.36,0.00
+SK,Water utilities,333.09,0.00,0.00,0.00,50.92,0.00
+SK,Supply chain and transport,974.00,8510.51,0.00,4008.37,2215.30,0.00
+SK,Chemical and materials industry,916.36,7241.10,0.00,1069.14,5448.53,0.00
+SK,Aviation travel and tourism,1380.81,0.00,0.00,273.90,22.76,0.00
+SK,Real estate,13131.79,0.00,0.00,0.00,2657.36,0.00
+SK,Mining and metals,310.04,0.00,0.00,0.14,33.75,0.00
+SK,Retail consumer goods and lifestyle,4485.02,4509.00,0.00,761.16,773.00,0.00
+SK,Oil and gas,0.00,13.29,0.00,0.77,1452.20,0.00
+SK,Automotive,155.07,11121.82,0.00,0.00,15229.51,0.00
+SK,Healthcare delivery,1500.92,0.00,0.00,0.00,518.95,0.00
+SK,Electronics,0.00,1230.47,0.00,5370.44,80.19,0.00
+SK,Information technology,0.00,0.00,2694.98,0.00,371.00,0.00
+SK,Insurance and asset management,0.00,0.00,617.39,0.00,182.50,0.00
+SK,Banking and capital markets,0.00,0.00,1889.29,0.00,72.38,0.00
+SK,Digital communications,0.00,0.00,1573.28,0.00,251.59,0.00
+SK,Public services and others,14261.00,1916.21,3085.70,5.11,5369.82,0.00
