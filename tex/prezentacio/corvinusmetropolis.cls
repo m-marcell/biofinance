@@ -15,6 +15,7 @@
 \newcommand{\imp}[1]{\alert{\textit{#1}}}
 %
 \usetheme[outer/progressbar=foot, titleformat=smallcaps, subsectionpage=progressbar, block=fill]{metropolis}
+\usefonttheme{professionalfonts}
 %
 \setmainfont[UprightFont = {./fonts/Calluna-Regular.otf}, ItalicFont  = {./fonts/Calluna-Italic.otf}, BoldFont    = {./fonts/TT-Nooks-Regular.otf}]{Main Font}
 %
