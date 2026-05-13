@@ -39,21 +39,24 @@
 \begin{frame}
   \frametitle{Módszertan I.}
   Egy olyan befektetőt feltételezünk (shortolás megengedett), akinek a hasznossági függvényébe a vagyon maximalizálása mellett, \alert{pozitívan gondolkodik a magasabb biodiversity/nature értékekről}.\\
+  \pause
   \textcite{pedersen_responsible_2021} alapján a \alert{hasznossági fv-e lineáris és a következő alakú}:
   \metroset{block=fill}
   \begin{block}{Kiegészített hasznossági függvény}
   \begin{equation}
     U = E[\widehat{W}|s] - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
   \end{equation}
-  ahol $\widehat{W}=W(1+r^f+x'r)$, $\hat{\gamma}$ az abszolút kockázatelutasító paraméter, $s$ és $\bar{s}$ pedig a biodiversity/nature score és számtani átlaga.
+  ahol $\widehat{W}=W\cdot(1+r^f+x'r)$, $\hat{\gamma}$ az abszolút kockázatelutasító paraméter, $s$ és $\bar{s}$ pedig a biodiversity/nature score és számtani átlaga.
   \end{block}
 \end{frame}
 
 \begin{frame}
   \frametitle{Módszertan II.}
   Egy sztenderd mean-variance hasznosságfüggvényű befektető a befektetési univerzumban megkeresi az \alert{érintési portfóliót}, majd ezt keveri a \alert{kockázatmentes eszközzel} az egyéni kockázatkerülésének függvényében.\\
+  \pause
   \medskip
   Az érintési portfólió az a portfólió, ami a legmagasabb Sharpe-rátával rendelkezik. Ebből kiindulva \alert{ezt a koncepciót \textcite{pedersen_responsible_2021} általánosította} azzal, hogy \alert{minden egyes sztenderizált proxy mellett} (jelen esteben biodiversity score), \alert{meghatározható legyen a maximálisan elérhető Sharpe-ráta}.\\
+  \pause
   \bigskip
   A probléma idáig nem függ az egyéni hasznosságtól, azaz a befektetési univerzumra egyértelműen meghatározható az ún. \imp{BIODIV-SR határ}!
 \end{frame}
@@ -69,13 +72,13 @@
   Itt $\text{SR}^{\alpha}_{\text{bio}}$ a BIODIV-SR adott $\alpha$ biodiversity score melletti maximum elérhető Sharpe-ráta,
   $\overline{\text{SR}^{\alpha, k}_{\text{rnd}}}$ pedig $k$-szor elvégzett visszatevés nélküli mintavéttellel készített portfóliók maximum Sharpe-rátáinak átlaga.
   \end{block}
-  A random generált portfólió \alert{eszközeinek számossága mindig meg kell egyeznie} a BIODIV-SR adott pontjaihoz tartozó portfólió számosságával.
+  A random generált portfólió \alert{eszközeinek számosságának mindig meg kell egyeznie} a BIODIV-SR adott pontjaihoz tartozó portfólió számosságával.
 \end{frame}
 
 \begin{frame}
   \frametitle{Kutatási kérdések}
   \begin{enumerate}
-    \item A biodiverzitási preferenciával rendelkező befektetők az egész univerzumból választanak (long vagy short pozíció egyaránt), nem pedig egyszerű kizárási stratégiát alkalmaznak.\footcite{pedersen_responsible_2021} 
+    \item A biodiverzitási preferenciával rendelkező befektetők az egész univerzumból választanak (long vagy short pozíció egyaránt), nem pedig egyszerű kizárási stratégiát alkalmaznak.\footcite{pedersen_responsible_2021}\pause 
     \item A piaci hozamokban megjelenik-e a biodiverzitási prémium\footcite{coqueret_biodiversity_2024} (ami elkülönül a carbon prémiumtól), és ha igen, akkor mekkora ennek a mértéke az európai piacon?\footcite{naffa_biodiversity_2024}
   \end{enumerate}
 \end{frame}
