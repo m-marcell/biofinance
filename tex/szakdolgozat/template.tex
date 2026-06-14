@@ -1,0 +1,41 @@
+\documentclass{hunthesis}
+
+\thesistitle{Dolgozat címe}
+
+% Author
+\authorname     {Szerző Neve}
+\authorprogram  {Szak}
+
+% Supervisor
+\supervisorname  {Témavezető Neve}
+\supervisortitle {Egyetemi docens}
+
+% Year 
+\thesisyear{2025}
+
+% Left institution  (e.g. ELTE)
+\institutionleft{Eötvös Loránd\par Tudományegyetem\par Természettudományi Kar}
+
+% Right institution  (e.g. Corvinus)
+\institutionright{Budapesti Corvinus Egyetem}
+
+\logoleft {./img/elte.pdf}
+\logoright{./img/color_simple_HUN.pdf}
+
+\usepackage{csquotes}           % smart quotation marks
+\usepackage[backend=biber, style=apa]{biblatex}  % bibliography
+% \addbibresource{references.bib}
+
+\begin{document}
+
+% ── Cover page ──────────────────────────────────────────────────
+\maketitle
+
+\tableofcontents
+\listoffigures        % remove if not needed
+\listoftables         % remove if not needed
+
+\printbibliography[title={Irodalomjegyzék}]
+
+
+\end{document}

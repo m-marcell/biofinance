@@ -1,0 +1,17 @@
+Az elemzés módszertana két hipotézisből épül fel. Az első, egy elméleti kérdés, amit után definiálunk, ahol az egész befektetési univerzumra fogalmazunk meg állításokat....
+
+\subsection{Investor problem}
+A vizsgált befektető vagyonallokációs problémájával foglalkozunk. Tegyük fel, hogy minden befektető  $n$ darab kockázatos eszközből (részvényből) és a kockázatmentes eszközből választ. A kockázatmentes eszköz hozamát, jelölje $r^f$, a kokázatos eszközök többlethozamait pedig az $R = (R_1, R_2, \dots,R_n)$ vektor. Az egyedi eszközök rendelkeznek biodiverztiási értékekkel, amiket az $s=(s_1,s_2,\dots,s_n$ vektor jelöl.
+
+A Markowitz-féle portfólióelméletből kiindulva az allokációs problémáját azzal oldja meg, hogy a befektetési univerzumában elérhető portfóliók közül kiválasztja a legmagass Share-rátával rendelkezőt, mivel ez lesz az a portfólió, ami a legoptimálisabb hozamot garantálja a kockázat (szórás) figyelembe vétele mellett. Ez a modell kizárólag a hozam és kockázat viszonyát veszi figyelembe!\\
+A befektető $W$ kezdeti vagyonnal rendelkezik, és a portfólióját a kockázatos eszközökből választ, $x=(x_1,x_2,\dots,x_n)$ vektor reprezentálja az egyedi eszközök súlyát, ahol $x_i$ az $i$-edik eszközbe fektetett hányad. Ekkor a befektető jövőbeli vagyona a következő:
+\begin{equation}
+	\widehat{W}=W\cdot (1+r^f+x'R).
+\end{equation}
+
+Tegyük fel, hogy a befektetőnk pozitív hasznosságot érez a portfóliója magasabb biodiverzitási értékétől. \textcite{pedersen_responsible_2021} munkássága nyomán a Markowitz-féle hasznosságot ki tudjuk egészíteni egy tetszőleges proxy változóval, jelen esetben a biodiverzitási értékekkel.
+Az elmélet alapján a befektető a hasznosságát szeretné maximalizálni $W$ vagyonában az átlagos biodiverzitási érték $\bar{s}=\dfrac{x's}{x'1}$ mellett. A kiegészített hasznossági függvénye:
+\begin{equation}
+    U = E[\widehat{W}|s] - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
+\end{equation}
+ahol $\bar{\gamma}$ a Markowitz elméletből ismert abszolút kockázatkerülési paraméter, és $f: R \to R \cup [-\infty]$ a biodiverzitás-preferencia függvény. 

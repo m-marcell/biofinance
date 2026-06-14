@@ -5,7 +5,10 @@
 \LoadClass{beamer}
 %
 \RequirePackage{orcidlink, fontspec}
+\RequirePackage[T1]{fontenc}
 \RequirePackage[style=apa, backend=biber]{biblatex}
+\RequirePackage{csquotes}
+%
 \synctex=1
 %
 %
