@@ -1,4 +1,4 @@
-\documentclass{hunthesis}
+\documentclass{bce-thesis}
 
 \addbibresource{bibliography.bib}
 
@@ -6,14 +6,16 @@
 \usepackage{graphicx}
 
 \thesistitle{Biopénzügyek}
-\thesissubtitle{Biodiverzitási kockázati prémium empirikus vizsgálata az európai piacon}
+\thesissubtitle{Biodiverzitási kockázati prémium empirikus vizsgálata
+az európai piacon}
 
 \authorname{Molnár Marcell}
 \authorprogram{Pénzügy számvitel alapszak,\\Pénzügy specializáció}
 
 \supervisorname{Dr. Dömötör Barbara}
-\supervisortitle{Egyetemi tanár,\\Pénzügy Intézet}
+\supervisortitle{Egyetemi tanár}
 
+\city{Budapest}
 \thesisyear{2026}
 
 \institution{Budapesti Corvinus Egyetem}
@@ -25,7 +27,7 @@
 \maketitle
 
 \begin{abstract}
-Kivonat ide
+	Kivonat ide
 \end{abstract}
 
 \section{Bevezetés}
@@ -34,12 +36,11 @@ Kivonat ide
 
 \cleardoublepage
 
-\section{Irodalmi áttekintés}
+\section{Szakirodalmi áttekintés}
 
 \cleardoublepage
 
 \section{Módszertan}
-%\label{sec3}
 
 \input{./sections/methodology.tex}
 
@@ -47,11 +48,7 @@ Kivonat ide
 
 \section{Biodiverzitási prémium vizsgálata}
 
-\input{./sections/analysis.tex}
-
-\cleardoublepage
-
-\section{Eredmények}
+\input{./sections/results.tex}
 
 \cleardoublepage
 
@@ -62,6 +59,7 @@ Kivonat ide
 \pagenumbering{roman}
 
 \printbibliography[title=Irodalomjegyzék]
+\addcontentsline{toc}{section}{Irodalomjegyzék}
 
 \listoffigures
 
@@ -69,6 +67,8 @@ Kivonat ide
 
 \section*{Köszönetnyílvánítás}
 
-Ide
+\cleardoublepage
+
+\nyilatkozat
 
 \end{document}
