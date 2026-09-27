@@ -1,17 +1,15 @@
 import lseg.data as ld
-import pandas
 
 
-def symbol_conversion(ric):
+def symbol_conversion(ric) -> None:
     # Tickerer rendezése
-    const_data = ld.content.symbol_conversion.Definition(
-        ric).get_data()
+    const_data = ld.content.symbol_conversion.Definition(ric).get_data()
     const_data.data.df.to_csv("../data/raw/symbology.csv")
 
     return
 
 
-def fundamentals_download(ric):
+def fundamentals_download(ric) -> None:
     # Legutolsó ESG adatok (éves bontás majd később)
     fields = [
         "TR.TickerSymbol",
@@ -26,24 +24,21 @@ def fundamentals_download(ric):
         "TR.GICSSubindustry",
     ]
 
-    fundamentals = ld.get_data(
-        universe=ric,
-        fields=fields
-    )
+    fundamentals = ld.get_data(universe=ric, fields=fields)
     fundamentals.to_csv("../data/raw/fundamentals.csv")
 
     return
 
 
-def esg_download(ric):
+def esg_download(ric) -> None:
     # Legutolsó ESG adatok (éves bontás majd később)
     fields = [
         "TR.TickerSymbol",
         "TR.ESGScore.date",
-        "TR.ESGScore",              # ESG Combined Score
+        "TR.ESGScore",  # ESG Combined Score
         "TR.EnvironmentPillarESGScore.date",  # Environmental
         "TR.EnvironmentPillarESGScore",  # Environmental
-        "TR.SocialPillarESGScore.date",       # Social
+        "TR.SocialPillarESGScore.date",  # Social
         "TR.SocialPillarESGScore",
         "TR.GovernancePillarESGScore.date",
         "TR.GovernancePillarESGScore",
@@ -59,20 +54,16 @@ def esg_download(ric):
         "TR.BiodiversityThemeScore",
         "TR.BiodiversityThemeMaterialityLevel",
         "TR.ClimateTransitionThemeScore",
-        "TR.ClimateTransitionThemeMaterialityLevel"
-
+        "TR.ClimateTransitionThemeMaterialityLevel",
     ]
 
-    esg_data = ld.get_data(
-        universe=ric,
-        fields=fields
-    )
+    esg_data = ld.get_data(universe=ric, fields=fields)
     esg_data.to_csv("../data/raw/esg_latest.csv")
 
     return
 
 
-def historic_price_download(ric):
+def historic_price_download(ric) -> None:
     for asset in ric:
         # Historic price letöltés
         break

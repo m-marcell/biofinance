@@ -1,6 +1,7 @@
 import lseg.data as ld
-from lseg.data.discovery import Chain
 import pandas
+from lseg.data.discovery import Chain
+
 import download_functions as dwnld
 
 # "Controlled flight into terrain"
@@ -63,9 +64,9 @@ ric = [
     "HRMS.PA",
     "NESN.S",
     "SAF.PA",
-    "SGEF.PA"
+    "SGEF.PA",
 ]
-start = "2013-01-01"
+start = "2020-01-01"
 end = "2025-12-31"
 
 print(f"Downloading data for RIC:\n{ric}")
