@@ -2,6 +2,7 @@ import time
 
 import lseg.data as ld
 import pandas as pd
+from pandas._libs import OutOfBoundsDatetime
 
 ric_list = list(pd.read_csv("./ric.csv")["RIC"])
 fields = ["TR.PriceClose"]
@@ -49,7 +50,7 @@ def get_history_with_retry(universe_chunk):
     raise last_error
 
 
-def main():
+def download(output=output_path):
     all_frames = []
 
     with ld.open_session():  # uses your default session config
@@ -77,9 +78,10 @@ def main():
     df = pd.concat(all_frames, axis=1)
     df = df.reset_index().rename(columns={"index": "Date"})
 
-    df.to_csv(output_path, index=False)
-    print(f"Saved {df.shape[0]} rows x {df.shape[1]} columns to {output_path}")
+    df.to_csv(output, index=False)
+    print(f"Saved {df.shape[0]} rows x {df.shape[1]} columns to {output}")
 
 
+# use as a standalone script or as a module as well
 if __name__ == "__main__":
-    main()
+    download()
