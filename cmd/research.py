@@ -11,7 +11,7 @@ import pandas as pd
 # stock data closing prices from 2020-09-01 to 2026-09-01
 
 stock_info = pd.read_excel("../data/stoxx600_esg_biodiv_raw.xlsx")
-stock_data = pd.read_csv("../data/close_prices.csv")
+stock_data = pd.read_csv("../data/close_prices_new.csv")
 
 # missing values
 stock_data.ffill(inplace=True)
@@ -58,16 +58,20 @@ print(stock_info.info())
 
 ##### PLOTTING #####
 
-labels = np.arange(6)
-a2026 = stock_info.value_counts("Biodiversity Theme Score 2026", sort=True)
-a2025 = stock_info.value_counts("Biodiversity Theme Score 2025", sort=True)
-a2024 = stock_info.value_counts("Biodiversity Theme Score 2024", sort=True)
+# labels = np.arange(6)
+# a2026 = stock_info.value_counts("Biodiversity Theme Score 2026", sort=True)
+# a2025 = stock_info.value_counts("Biodiversity Theme Score 2025", sort=True)
+# a2024 = stock_info.value_counts("Biodiversity Theme Score 2024", sort=True)
+#
+# plt.bar(labels - 0.2, a2024, 0.2)
+# plt.bar(labels, a2025, 0.2)
+# plt.bar(labels + 0.2, a2026, 0.2)
+# plt.xlabel("Biodiversity Theme Score")
+# plt.ylabel("Number of data points")
+# plt.legend(["2024", "2025", "2026"])
+#
+# plt.savefig("../src/plots/biodiv_theme.pdf")
 
-plt.bar(labels - 0.2, a2024, 0.2)
-plt.bar(labels, a2025, 0.2)
-plt.bar(labels + 0.2, a2026, 0.2)
-plt.xlabel("Biodiversity Theme Score")
-plt.ylabel("Number of data points")
-plt.legend(["2024","2025","2026"])
-
-plt.savefig("../src/plots/biodiv_theme.pdf")
+# stock_data.to_csv("../data/stock_data_out.csv")
+# stock_info.to_csv("../data/stock_info_out.csv")
+print(stock_info.columns.values.tolist())

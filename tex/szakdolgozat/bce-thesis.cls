@@ -79,7 +79,11 @@
 \nyilatkozatdatum{\today}
 
 \hypersetup{
-  colorlinks  = false,
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=black,
+  citecolor=red,
+  urlcolor=blue,
   pdftitle    = {\@thesistitle},
   pdfauthor   = {\@authorname},
 }

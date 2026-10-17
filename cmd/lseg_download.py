@@ -4,13 +4,13 @@ import lseg.data as ld
 import pandas as pd
 from pandas._libs import OutOfBoundsDatetime
 
-ric_list = list(pd.read_csv("./ric.csv")["RIC"])
+ric_list = list(pd.read_csv("./rics.csv")["RIC"])
 fields = ["TR.PriceClose"]
-start_date = "2020-09-01"
-end_date = "2026-09-01"
+start_date = "2019-09-01"
+end_date = "2020-09-01"
 interval = "daily"
 
-output_path = "close_prices.csv"
+output_path = "close_prices_new.csv"
 
 batch_size = 20  # RICs per request — smaller batches time out far less
 max_retries = 5  # retry attempts per batch on timeout/transient errors
