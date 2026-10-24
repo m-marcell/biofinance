@@ -47,6 +47,7 @@
 \RequirePackage{amsthm}
 \RequirePackage{mathtools}
 \RequirePackage{hyperref}
+\RequirePackage{datetime2}
 % \RequirePackage{bookmark}
 
 \onehalfspacing
@@ -98,7 +99,9 @@
 		\begin{center}
 				\Huge \bfseries SZAKDOLGOZAT\par
 				\vspace{2cm}
-				\Large \bfseries \@authorname
+				\Large \bfseries \@authorname\par
+                \vspace{2cm}
+                \normalsize Legutóbb frissítve: \DTMnow
 
 				\vfill
 
