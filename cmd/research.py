@@ -1,9 +1,11 @@
 import datetime
-from operator import lshift
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+
+import esgsr
+import markowitz
 
 # LSEG Worlspace API
 #
@@ -11,17 +13,19 @@ import pandas as pd
 # lseg_download.download(output="../data/close_prices.csv")
 
 # STOXX 600, RIC: .STOXX, ISIN: EU0009658202, Ticker: SXXP
-# stock data closing prices from 2020-09-01 to 2026-09-01
+# stock data closing prices from 2019-09-02 to 2026-09-01
 
 download_date = datetime.date(2026, 9, 27)
 stock_info = pd.read_excel("../data/stoxx600_esg_biodiv_raw.xlsx")
 stock_data = pd.read_csv("../data/close_prices_new.csv")
 
-# missing values
+# missing values, filtering
 stock_data.ffill(inplace=True)
-stock_info.dropna(
-    subset=["LSEG ESG Score Plus 2026"], inplace=True
-)  # drop stocks where lseg esg 2026 is null
+stock_info.dropna(subset=["LSEG ESG Score Plus 2026"], inplace=True)
+stock_info.dropna(subset=["LSEG ESG Score Plus 2025"], inplace=True)
+stock_info.dropna(subset=["LSEG ESG Score Plus 2024"], inplace=True)
+stock_info.dropna(subset=["Company Market Cap EUR"], inplace=True)
+
 stock_data.dropna(
     axis=1, inplace=True
 )  # drop stocks where there is no data for the 6y period
@@ -41,11 +45,9 @@ stock_info["Biodiversity Risk Management Integration"] = stock_info[
 ].astype("bool")
 stock_info["Biodiversity Due Diligence"] = stock_info[
     "Biodiversity Due Diligence"
-].astype(
-    "bool"
-)  # concert to boolean
+].astype("bool")
 
-stock_data["Date"] = pd.to_datetime(stock_data["Date"])
+stock_data["Date"] = pd.to_datetime(stock_data["Date"], unit="D", origin="1899-12-30")
 
 # index changes
 stock_data.set_index("Date", inplace=True)
@@ -69,6 +71,16 @@ print(stock_info.value_counts("Currency of Exchange"))
 eur_only = stock_info[stock_info["Currency of Exchange"] == "EUR"]
 
 print(eur_only.value_counts("Biodiversity Theme Score 2026"))
+
+# res = markowitz.optimize_portfolio(stock_data)
+# print(res)
+
+mu, sigma, s, names = esgsr.prepare_inputs(
+    stock_data, stock_info, esg_col="Biodiversity Theme Score 2026", rf_annual=0.02
+)
+target = 2.0
+num = esgsr.solve_esg_sr(mu, sigma, s, target)
+print(num)
 
 ##### PLOTTING #####
 
