@@ -76,32 +76,54 @@ print(stock_info.info())
 print(stock_info.value_counts("Currency of Exchange"))
 print(stock_info.value_counts("Biodiversity Theme Score 2026"))
 print(f"Biodiv 2026 average: {stock_info["Biodiversity Theme Score 2026"].mean()}")
-print(stock_info.groupby("GICS Sector Name")["Biodiversity Theme Score 2026"].mean())
+print(
+    stock_info.groupby("GICS Sector Name")["Biodiversity Theme Score 2026"]
+    .mean()
+    .to_latex(caption="Biodiverzitási mutatók átlaga iparáganként")
+)
 
+
+prices2026 = stock_data["2019-09-01":"2024-08-31"]
+prices2025 = stock_data["2020-09-01":"2025-08-31"]
+prices2024 = stock_data["2021-09-01":"2026-08-31"]
 
 ##### BIODIV-SR #####
 # res = markowitz.optimize_portfolio(stock_data)
 # print(res)
 
-"""
 mu, sigma, s, names = esgsr.prepare_inputs(
-    stock_data,
+    prices2026,
     stock_info,
     esg_col="Biodiversity Theme Score 2026",
     rf_annual=0.02,
-    zscore_esg=False,
+    zscore_esg=True,
 )
-target = 5.0
-num = esgsr.esg_sr_closed_form(mu, sigma, s, target)
-print(num["sharpe"])
+frontier2026, weights2026 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
+mu, sigma, s, names = esgsr.prepare_inputs(
+    prices2025,
+    stock_info,
+    esg_col="Biodiversity Theme Score 2025",
+    rf_annual=0.02,
+    zscore_esg=True,
+)
+frontier2025, weights2025 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
+mu, sigma, s, names = esgsr.prepare_inputs(
+    prices2024,
+    stock_info,
+    esg_col="Biodiversity Theme Score 2024",
+    rf_annual=0.02,
+    zscore_esg=True,
+)
+frontier2024, weights2024 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
 
-frontier, weights = esgsr.esg_sr_frontier(
-    mu, sigma, s, tickers=names, s_grid=np.linspace(1, 5, 25)
-)
-print(frontier)
-plot = frontier.plot(y="sharpe", title="BIODIV-SR Frontier")
-plt.show()
-"""
+frontier2024.plot(y="sharpe", label="2024")
+plt.savefig("../tex/szakdolgozat/img/biodiv-sr2024.pdf")
+frontier2025.plot(y="sharpe", label="2025")
+plt.savefig("../tex/szakdolgozat/img/biodiv-sr2025.pdf")
+frontier2026.plot(y="sharpe", label="2026")
+plt.savefig("../tex/szakdolgozat/img/biodiv-sr2026.pdf")
+
+# plt.savefig("../src/biodiv-sr.pdf")
 
 ##### PLOTTING #####
 
