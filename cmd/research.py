@@ -53,6 +53,9 @@ stock_data["Date"] = pd.to_datetime(stock_data["Date"], unit="D", origin="1899-1
 stock_data.set_index("Date", inplace=True)
 stock_info.set_index("RIC", inplace=True)
 
+# Only keep EUR stocks
+stock_info = stock_info[stock_info["Currency of Exchange"] == "EUR"]
+
 # Only keep RIC's present in both datasets after filtering
 ric_list_data = sorted(stock_data.columns.values.tolist())
 ric_list_info = sorted(stock_info.index.tolist())
@@ -67,20 +70,38 @@ stock_data.drop(delete_from_data, axis=1, inplace=True)
 if sorted(stock_info.index.tolist()) == sorted(stock_data.columns.values.tolist()):
     print(True)
 
+
+##### FIRST RESULTS
+print(stock_info.info())
 print(stock_info.value_counts("Currency of Exchange"))
-eur_only = stock_info[stock_info["Currency of Exchange"] == "EUR"]
+print(stock_info.value_counts("Biodiversity Theme Score 2026"))
+print(f"Biodiv 2026 average: {stock_info["Biodiversity Theme Score 2026"].mean()}")
+print(stock_info.groupby("GICS Sector Name")["Biodiversity Theme Score 2026"].mean())
 
-print(eur_only.value_counts("Biodiversity Theme Score 2026"))
 
+##### BIODIV-SR #####
 # res = markowitz.optimize_portfolio(stock_data)
 # print(res)
 
+"""
 mu, sigma, s, names = esgsr.prepare_inputs(
-    stock_data, stock_info, esg_col="Biodiversity Theme Score 2026", rf_annual=0.02
+    stock_data,
+    stock_info,
+    esg_col="Biodiversity Theme Score 2026",
+    rf_annual=0.02,
+    zscore_esg=False,
 )
-target = 2.0
-num = esgsr.solve_esg_sr(mu, sigma, s, target)
-print(num)
+target = 5.0
+num = esgsr.esg_sr_closed_form(mu, sigma, s, target)
+print(num["sharpe"])
+
+frontier, weights = esgsr.esg_sr_frontier(
+    mu, sigma, s, tickers=names, s_grid=np.linspace(1, 5, 25)
+)
+print(frontier)
+plot = frontier.plot(y="sharpe", title="BIODIV-SR Frontier")
+plt.show()
+"""
 
 ##### PLOTTING #####
 
