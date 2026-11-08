@@ -143,10 +143,10 @@
 		\vfill
 
 		\begin{center}
-			\includegraphics[height=5cm]{\@logo}
+			\includegraphics[height=4.5cm]{\@logo}
 		\end{center}
 
-		\vspace{1.5cm}
+		\vspace{1cm}
 
 		\begin{center}
 				{\large\bfseries \@city, \@thesisyear}

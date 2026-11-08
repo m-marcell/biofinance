@@ -1,24 +1,28 @@
-\initial{A}z eddigi eredmények bemutatásán túl, a következőkben a biodiverzitási kockázatokra érzékeny befektetők viselkedését vizsgáljuk. Az elemzésünk módszertana két kérdésből épül fel:
+Az eddigi eredmények bemutatásán túl, a következőkben a biodiverzitási kockázatokra érzékeny befektetők viselkedését vizsgáljuk. Az elemzésünk módszertana két kérdésből épül fel:
 \begin{itemize}
-    \item Az első egy elméleti kérdés: \textbf{A biodiverzitási kockázatokat kerülő befektető az egész befektetési univerzumából választ (shortolás megengedett), vagy egyszerű kiszűrési stratégiát választ?}
+    \item Az első egy elméleti kérdés: \textbf{A biodiverzitási kockázatokat kerülő befektető az egész befektetési univerzumából választ, vagy egyszerű kiszűrési stratégiát választ?}
     \item A második pedig egy gyakorlati kérdés: \textbf{Hogyan változik a biodiverzitási kockázatokat kerülő befektető portfóliójának a teljesítménye a teljes befektetési univerzumhoz képest?}
 \end{itemize}
 
 
-A két kutatási kérdés megválaszolására a Markowitz-féle optimális portfólió-modell egy kiegészítet változatát használjuk. Elsőkörben megvizsgáljuk az ezáltal létrehozott portfóliók összetételét, majd a biodiverzitási kockázatok mérésére definiálunk egy biodiverzitási kockázati prémiumot.
+A két kutatási kérdés megválaszolására \textcite{pedersen_responsible_2021} által felállítótt módszertant alkalmazzuk. A módszertan olyan befektetőt feltételez, amely a portfóliójának teljesítményében a várható hozamon és szóráson túl egy általa választott ESG pontszám (esetünkben biodiverzitási pontszám) is számít. A gyakoraltban ez úgy történik, hogy a befektető kiegészíti a hasznossági függvényét egy ESG preferencia függvénnyel, amely a portfólió átlagos ESG pontszámára tekintve monoton növekvő (a függvényéről többet nem tudunk mondani, mivel egyedi preferencián alapul).
 
-\subsection{Befektetői probléma}
-A vizsgált befektető vagyonallokációs problémájával foglalkozunk. Tegyük fel, hogy minden befektető  $n$ darab kockázatos eszközből (részvényből) és a kockázatmentes eszközből választ. A kockázatmentes eszköz hozamát, jelölje $r^f$, a kokázatos eszközök többlethozamait pedig az $R = (R_1, R_2, \dots,R_n)$ vektor. Az egyedi eszközök rendelkeznek biodiverztiási értékekkel, amiket az $s=(s_1,s_2,\dots,s_n)$ vektor jelöl.
+A kutatás első felében felvázoljuk az adott biodiverzitási értékek mellett létező optimális portfóliókat. Az optimalizáció eddig egyértelmű, mivel a biodiverzitási preferencia csak az optimális portfóliók közötti választást befolyásolja. Az optimális portfóliók várható-hozamát és szórását jól össze lehet foglalni a Sharpe-rátával, így ezeket a biodiverzitási érték függvényében könnyen lehet ábrázolni. Továbbá a magasabb biodiverzitási preferencia "árát" is meg tudjuk határozni, ezt a Biodiverzitás-Sharpe-ráta függvényen való elmozdulásként tudjuk értelmezni.
 
-A Markowitz-féle portfólióelméletből kiindulva az allokációs problémáját azzal oldja meg, hogy a befektetési univerzumában elérhető portfóliók közül kiválasztja a legmagass Share-rátával rendelkezőt, mivel ez lesz az a portfólió, ami a legoptimálisabb hozamot garantálja a kockázat (szórás) figyelembe vétele mellett. Ez a modell kizárólag a hozam és kockázat viszonyát veszi figyelembe!\\
-A befektető $W$ kezdeti vagyonnal rendelkezik, és a portfólióját a kockázatos eszközökből választ, $x=(x_1,x_2,\dots,x_n)$ vektor reprezentálja az egyedi eszközök súlyát, ahol $x_i$ az $i$-edik eszközbe fektetett hányad. Ekkor a befektető jövőbeli vagyona a következő:
+\subsection{Befektető portfólióépítése}
+
+ \textcite{pedersen_responsible_2021} által felvázolt vagyonallokációs módszertan a következő. Tegyük fel, hogy minden befektető  $n$ darab kockázatos eszközből (részvényből) és a kockázatmentes eszközből választ. A kockázatmentes eszköz hozamát, jelölje $r^f$, a kokázatos eszközök többlethozamait pedig az $R = (R_1, R_2, \dots,R_n)$ vektor. Az egyedi eszközök rendelkeznek biodiverztiási értékekkel, amiket az $s=(s_1,s_2,\dots,s_n)$ vektor jelöl.
+
+A Markowitz-féle portfólióelméletből kiindulva a befektető az allokációs problémáját azzal oldja meg, hogy a befektetési univerzumában elérhető portfóliók közül kiválasztja a legmagasabb Share-rátával rendelkezőt, mivel ez lesz az a portfólió, ami optimális várható hozamot garantálja a kockázat (szórás) figyelembe vétele mellett. Ez a modell kizárólag a hozam és kockázat viszonyát veszi figyelembe, tehát az optimalizáció ezen része nem függ a proxy változónktól!
+
+A befektető $W$ kezdeti vagyonnal rendelkezik, és a portfólióját a kockázatos eszközökből választja. Az $x=(x_1,x_2,\dots,x_n)$ vektor reprezentálja az egyedi eszközök súlyát, ahol $x_i$ az $i$-edik eszközbe fektetett hányad (amennyiben csak \textit{long} pozíció megengedett, akkor az $x$ vektor elemei csak pozitív értékeket vehetnek fel). Ekkor a befektető jövőbeli vagyona a következő:
 \begin{equation}
 	\widehat{W}=W\cdot (1+r^f+x'R).
 \end{equation}
 
 Tegyük fel, hogy a befektetőnk pozitív hasznosságot érez a portfóliója magasabb biodiverzitási értékétől. \textcite{pedersen_responsible_2021} munkássága nyomán a Markowitz-féle hasznosságot ki tudjuk egészíteni egy tetszőleges proxy változóval, jelen esetben a biodiverzitási értékekkel.
-Az elmélet alapján a befektető a hasznosságát szeretné maximalizálni $W$ vagyonában az átlagos biodiverzitási érték $\bar{s}=\dfrac{x's}{x'1}$ mellett. A kiegészített hasznossági függvénye:
+Az elmélet alapján a befektető a hasznosságát szeretné maximalizálni $W$ vagyonában a súlyozott átlagos proxy változó, $\bar{s}=\dfrac{x's}{x'1}$ mellett. A kiegészített hasznossági függvénye a következő:
 \begin{equation}
-    U = E[\widehat{W}|s] - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
+    U = E(\widehat{W}|s) - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
 \end{equation}
-ahol $\bar{\gamma}$ a Markowitz elméletből ismert abszolút kockázatkerülési paraméter, és $f: R \to R \cup [-\infty]$ a biodiverzitás-preferencia függvény. 
+ahol $\bar{\gamma}$ a Markowitz elméletből ismert abszolút kockázatkerülési paraméter, és $f: R \to R \cup \{-\infty\}$ a biodiverzitás-preferencia függvény. A biodiverzitás-preferencia függvény alakjáról nem tudunk pontosat mondani, mivel ez egyéni preferenciáktól függ. A függvény lehetséges formáiról a későbbiekben adunk pontosabb képet.
