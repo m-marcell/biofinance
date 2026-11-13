@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-import esgsr
+import biodivsr
 import markowitz
 
 # LSEG Worlspace API
@@ -91,30 +91,30 @@ prices2024 = stock_data["2021-09-01":"2026-08-31"]
 # res = markowitz.optimize_portfolio(stock_data)
 # print(res)
 
-mu, sigma, s, names = esgsr.prepare_inputs(
+mu, sigma, s, names = biodivsr.prepare_inputs(
     prices2026,
     stock_info,
     esg_col="Biodiversity Theme Score 2026",
     rf_annual=0.02,
     zscore_esg=True,
 )
-frontier2026, weights2026 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
-mu, sigma, s, names = esgsr.prepare_inputs(
+frontier2026, weights2026 = biodivsr.esg_sr_frontier(mu, sigma, s, tickers=names)
+mu, sigma, s, names = biodivsr.prepare_inputs(
     prices2025,
     stock_info,
     esg_col="Biodiversity Theme Score 2025",
     rf_annual=0.02,
     zscore_esg=True,
 )
-frontier2025, weights2025 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
-mu, sigma, s, names = esgsr.prepare_inputs(
+frontier2025, weights2025 = biodivsr.esg_sr_frontier(mu, sigma, s, tickers=names)
+mu, sigma, s, names = biodivsr.prepare_inputs(
     prices2024,
     stock_info,
     esg_col="Biodiversity Theme Score 2024",
     rf_annual=0.02,
     zscore_esg=True,
 )
-frontier2024, weights2024 = esgsr.esg_sr_frontier(mu, sigma, s, tickers=names)
+frontier2024, weights2024 = biodivsr.esg_sr_frontier(mu, sigma, s, tickers=names)
 
 frontier2024.plot(y="sharpe", label="2024")
 plt.savefig("../tex/szakdolgozat/img/biodiv-sr2024.pdf")
