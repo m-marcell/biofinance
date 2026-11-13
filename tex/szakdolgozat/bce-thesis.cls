@@ -113,7 +113,11 @@
 		\thispagestyle{empty}
 		\setlength{\parindent}{0pt}
 
-		\vspace*{1cm}
+		\begin{center}
+            \large \bfseries BUDAPESTI CORVINUS EGYETEM
+		\end{center}
+
+        \vspace{1cm}
 
 		\begin{center}
 			{\Huge\bfseries\@thesistitle\par}
@@ -141,12 +145,6 @@
 		\hfill
 
 		\vfill
-
-		\begin{center}
-			\includegraphics[height=4.5cm]{\@logo}
-		\end{center}
-
-		\vspace{1cm}
 
 		\begin{center}
 				{\large\bfseries \@city, \@thesisyear}

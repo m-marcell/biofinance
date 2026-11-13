@@ -25,4 +25,14 @@ Az elmélet alapján a befektető a hasznosságát szeretné maximalizálni $W$ 
 \begin{equation}
     U = E(\widehat{W}|s) - \frac{\hat{\gamma}}{2}Var(\widehat{W}|s) + Wf(\bar{s}),
 \end{equation}
-ahol $\bar{\gamma}$ a Markowitz elméletből ismert abszolút kockázatkerülési paraméter, és $f: R \to R \cup \{-\infty\}$ a biodiverzitás-preferencia függvény. A biodiverzitás-preferencia függvény alakjáról nem tudunk pontosat mondani, mivel ez egyéni preferenciáktól függ. A függvény lehetséges formáiról a későbbiekben adunk pontosabb képet.
+ahol $\bar{\gamma}$ a Markowitz elméletből az abszolút kockázatkerülési paraméter, és $f: R \to R \cup \{-\infty\}$ a biodiverzitás-preferencia függvény. A biodiverzitás-preferencia függvény alakjáról nem tudunk pontosat mondani, mivel ez egyéni preferenciáktól függ. A függvény lehetséges formáiról a későbbiekben adunk pontosabb képet.
+
+Egy biodiverzitási preferencia nélküli befektető csak a várható hozam és a szórás alapján optimalizál, mivel minél nagyobb várható hozamot szeretne elérni, minél kevesebb szórás mellett. A két változó összekapcsolására a Sharpe-rátát szokták alkalmazni, ami a várható hozam és szórás hányadosa lesz, azaz a legnagyobb Sharpe-rátával rendelkező portfóliót fogjuk optimális portfóliónak nevezni. A biodiverzitási preferenciával rendelkező esetben is ez lesz a kiindulási gondolat. Mivel a hasznossági függvény elsősorban a biodiverzitási értéktől függ, \textcite{pedersen_responsible_2021} úgy egyszerűsítették a problémát, hogy minden egyes biodiverzitási érték mellé meghatározták az optimális - legmagasabb Sharpe-rátával rendelkező - portfóliót a biodiverzitási értékeket súlyozottan átlagosan figyelembe véve. Az $\bar{s}$-hoz tartozó Sharpe-ráta értékére a következő feltételes maximalizálási feladatot vezették le:
+\begin{equation}
+    \text{SR}(\bar{s}) = \max_{\bar{s}=\frac{x's}{x'1}} \left( \frac{x'\mu}{\sqrt{x'\Sigma x}} \right) ,
+\end{equation}
+ahol $\mu$ a várható hozamok vektora, $\Sigma$ pedig az egyedi eszközök kovariancia-mátrixa, azaz maga a Sharpe-ráta definíciója.
+
+\subsection{Biodiverzitás - Sharpe-ráta határ}
+
+Mivel minden egyes átlagos biodiverzitási érték mellett meg tudjuk mondani az optimális portfóliót, ha ezt függvényként ábrázoljuk ($\text{SR} \sim \bar{s}$), akkor egy vizuális képet kaphatunk a biodiverzitási értékek elérésének hatásairól. Ameddig egy biodiverzitási preferenciákkal nem rendelkező befektető a lehető legnagyobb Sharpe-rátájú portfóliót választja, függetlenül a biodiverzitási értékétől, addig egy biodiverzitási preferenciával rendelkező valamily módon a magasabb biodiverzitási értékű lehetőségekből fog választani, akkor is ha az így kapott Sharpe-rátája csökkenni fog.
